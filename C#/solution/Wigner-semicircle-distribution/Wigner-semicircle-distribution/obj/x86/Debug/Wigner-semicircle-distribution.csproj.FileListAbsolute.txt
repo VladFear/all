@@ -1,0 +1,5 @@
+/home/vlad/Programming/C#/solution/Wigner-semicircle-distribution/Wigner-semicircle-distribution/bin/Debug/Wigner-semicircle-distribution.exe
+/home/vlad/Programming/C#/solution/Wigner-semicircle-distribution/Wigner-semicircle-distribution/bin/Debug/Wigner-semicircle-distribution.pdb
+/home/vlad/Programming/C#/solution/Wigner-semicircle-distribution/Wigner-semicircle-distribution/obj/x86/Debug/Wigner-semicircle-distribution.csprojAssemblyReference.cache
+/home/vlad/Programming/C#/solution/Wigner-semicircle-distribution/Wigner-semicircle-distribution/obj/x86/Debug/Wigner-semicircle-distribution.exe
+/home/vlad/Programming/C#/solution/Wigner-semicircle-distribution/Wigner-semicircle-distribution/obj/x86/Debug/Wigner-semicircle-distribution.pdb

@@ -1,0 +1,35 @@
+# Meta
+set(AM_MULTI_CONFIG "FALSE")
+set(AM_PARALLEL "4")
+set(AM_VERBOSITY "")
+# Directories
+set(AM_CMAKE_SOURCE_DIR "/home/vlad/Programming/sbc-platform")
+set(AM_CMAKE_BINARY_DIR "/home/vlad/Programming/build-sbc-platform-Desktop-Default")
+set(AM_CMAKE_CURRENT_SOURCE_DIR "/home/vlad/Programming/sbc-platform/src/SCS")
+set(AM_CMAKE_CURRENT_BINARY_DIR "/home/vlad/Programming/build-sbc-platform-Desktop-Default/src/SCS")
+set(AM_CMAKE_INCLUDE_DIRECTORIES_PROJECT_BEFORE "")
+set(AM_BUILD_DIR "/home/vlad/Programming/build-sbc-platform-Desktop-Default/src/SCS/SBCStat_autogen")
+set(AM_INCLUDE_DIR "/home/vlad/Programming/build-sbc-platform-Desktop-Default/src/SCS/SBCStat_autogen/include")
+# Files
+set(AM_SOURCES "/home/vlad/Programming/sbc-platform/src/SCS/mapviewer/CarConfigData.cpp;/home/vlad/Programming/sbc-platform/src/SCS/mapviewer/OSMMapView.cpp;/home/vlad/Programming/sbc-platform/src/SCS/mapviewer/main.cpp;/home/vlad/Programming/sbc-platform/src/SCS/mapviewer/mainwindow.cpp;/home/vlad/Programming/sbc-platform/src/SCS/mapviewer/mapobject.cpp")
+set(AM_HEADERS "/home/vlad/Programming/sbc-platform/src/SCS/mapviewer/CarConfigData.h;/home/vlad/Programming/sbc-platform/src/SCS/mapviewer/OSMMapView.h;/home/vlad/Programming/sbc-platform/src/SCS/mapviewer/mainwindow.h;/home/vlad/Programming/sbc-platform/src/SCS/mapviewer/mapobject.h")
+set(AM_SETTINGS_FILE "/home/vlad/Programming/build-sbc-platform-Desktop-Default/src/SCS/CMakeFiles/SBCStat_autogen.dir/AutogenOldSettings.txt")
+# Qt
+set(AM_QT_VERSION_MAJOR 5)
+set(AM_QT_MOC_EXECUTABLE "/usr/lib/qt5/bin/moc")
+set(AM_QT_UIC_EXECUTABLE "/usr/lib/qt5/bin/uic")
+# MOC settings
+set(AM_MOC_SKIP "/home/vlad/Programming/build-sbc-platform-Desktop-Default/src/SCS/qrc_res.cpp")
+set(AM_MOC_DEFINITIONS "QT_CORE_LIB;QT_GUI_LIB;QT_NETWORK_LIB;QT_NO_DEBUG;QT_WIDGETS_LIB")
+set(AM_MOC_INCLUDES "/home/vlad/Programming/build-sbc-platform-Desktop-Default/src/SCS;/home/vlad/Programming/sbc-platform/src/SCS;/home/vlad/Programming/sbc-platform/src/SCS/mapviewer;/home/vlad/Programming/sbc-platform/src/SCS/../../lib/libosmscout/build/include;/home/vlad/Programming/sbc-platform/src/SCS/../../lib/libosmscout/libosmscout/include;/home/vlad/Programming/sbc-platform/src/SCS/../../lib/libosmscout/libosmscout-map/include;/home/vlad/Programming/sbc-platform/src/SCS/../../lib/libosmscout/libosmscout-map-qt/include;/usr/include/x86_64-linux-gnu/qt5;/usr/include/x86_64-linux-gnu/qt5/QtWidgets;/usr/include/x86_64-linux-gnu/qt5/QtGui;/usr/include/x86_64-linux-gnu/qt5/QtCore;/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++;/usr/include/x86_64-linux-gnu/qt5/QtNetwork;/usr/include")
+set(AM_MOC_OPTIONS "")
+set(AM_MOC_RELAXED_MODE "")
+set(AM_MOC_MACRO_NAMES "Q_OBJECT;Q_GADGET;Q_NAMESPACE")
+set(AM_MOC_DEPEND_FILTERS "")
+set(AM_MOC_PREDEFS_CMD "/usr/bin/g++;-dM;-E;-c;/usr/share/cmake-3.13/Modules/CMakeCXXCompilerABI.cpp")
+# UIC settings
+set(AM_UIC_SKIP "/home/vlad/Programming/build-sbc-platform-Desktop-Default/src/SCS/qrc_res.cpp")
+set(AM_UIC_TARGET_OPTIONS "")
+set(AM_UIC_OPTIONS_FILES "")
+set(AM_UIC_OPTIONS_OPTIONS "")
+set(AM_UIC_SEARCH_PATHS "")

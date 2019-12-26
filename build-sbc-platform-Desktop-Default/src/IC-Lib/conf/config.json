@@ -1,0 +1,9 @@
+{
+	"id": 1,
+	"bind_address": "127.0.0.1",
+	"port": 40701,
+	"scs_address": "127.0.0.1",
+	"scs_port": 40701
+}
+
+

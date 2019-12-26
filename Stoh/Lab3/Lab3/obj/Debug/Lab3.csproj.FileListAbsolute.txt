@@ -1,0 +1,39 @@
+E:/3kurs_ЯПП/Lab3/Lab3/bin/Debug/Lab3.exe.config
+E:/3kurs_ЯПП/Lab3/Lab3/obj/Debug/Lab3.csprojResolveAssemblyReference.cache
+E:/3kurs_ЯПП/Lab3/Lab3/obj/Debug/Lab3.Form1.resources
+E:/3kurs_ЯПП/Lab3/Lab3/obj/Debug/Lab3.Properties.Resources.resources
+E:/3kurs_ЯПП/Lab3/Lab3/obj/Debug/Lab3.csproj.GenerateResource.Cache
+E:/3kurs_ЯПП/Lab3/Lab3/bin/Debug/Lab3.exe
+E:/3kurs_ЯПП/Lab3/Lab3/bin/Debug/Lab3.pdb
+E:/3kurs_ЯПП/Lab3/Lab3/obj/Debug/Lab3.exe
+E:/3kurs_ЯПП/Lab3/Lab3/obj/Debug/Lab3.pdb
+G:/3kurs_ЯПП/Lab3/Lab3/bin/Debug/Lab3.exe.config
+G:/3kurs_ЯПП/Lab3/Lab3/obj/Debug/Lab3.exe
+G:/3kurs_ЯПП/Lab3/Lab3/obj/Debug/Lab3.pdb
+G:/3kurs_ЯПП/Lab3/Lab3/bin/Debug/Lab3.exe
+G:/3kurs_ЯПП/Lab3/Lab3/bin/Debug/Lab3.pdb
+G:/3kurs_ЯПП/Lab3/Lab3/obj/Debug/Lab3.csprojResolveAssemblyReference.cache
+G:/3kurs_ЯПП/Lab3/Lab3/obj/Debug/Lab3.Form1.resources
+G:/3kurs_ЯПП/Lab3/Lab3/obj/Debug/Lab3.Properties.Resources.resources
+G:/3kurs_ЯПП/Lab3/Lab3/obj/Debug/Lab3.csproj.GenerateResource.Cache
+F:/3kurs_ЯПП/Lab3/Lab3/bin/Debug/Lab3.exe.config
+F:/3kurs_ЯПП/Lab3/Lab3/obj/Debug/Lab3.exe
+F:/3kurs_ЯПП/Lab3/Lab3/obj/Debug/Lab3.pdb
+D:/Study/University/4 kurs/folder/4 курс мой/Стохастика/Lab3/Lab3/bin/Debug/Lab3.exe.config
+D:/Study/University/4 kurs/folder/4 курс мой/Стохастика/Lab3/Lab3/bin/Debug/Lab3.exe
+D:/Study/University/4 kurs/folder/4 курс мой/Стохастика/Lab3/Lab3/bin/Debug/Lab3.pdb
+D:/Study/University/4 kurs/folder/4 курс мой/Стохастика/Lab3/Lab3/obj/Debug/Lab3.csprojAssemblyReference.cache
+D:/Study/University/4 kurs/folder/4 курс мой/Стохастика/Lab3/Lab3/obj/Debug/Lab3.Form1.resources
+D:/Study/University/4 kurs/folder/4 курс мой/Стохастика/Lab3/Lab3/obj/Debug/Lab3.Properties.Resources.resources
+D:/Study/University/4 kurs/folder/4 курс мой/Стохастика/Lab3/Lab3/obj/Debug/Lab3.csproj.GenerateResource.cache
+D:/Study/University/4 kurs/folder/4 курс мой/Стохастика/Lab3/Lab3/obj/Debug/Lab3.exe
+D:/Study/University/4 kurs/folder/4 курс мой/Стохастика/Lab3/Lab3/obj/Debug/Lab3.pdb
+/home/vlad/Programming/Stoh/Lab3/Lab3/bin/Debug/Lab3.exe.config
+/home/vlad/Programming/Stoh/Lab3/Lab3/bin/Debug/Lab3.exe
+/home/vlad/Programming/Stoh/Lab3/Lab3/bin/Debug/Lab3.pdb
+/home/vlad/Programming/Stoh/Lab3/Lab3/obj/Debug/Lab3.csprojAssemblyReference.cache
+/home/vlad/Programming/Stoh/Lab3/Lab3/obj/Debug/Lab3.Form1.resources
+/home/vlad/Programming/Stoh/Lab3/Lab3/obj/Debug/Lab3.Properties.Resources.resources
+/home/vlad/Programming/Stoh/Lab3/Lab3/obj/Debug/Lab3.csproj.GenerateResource.cache
+/home/vlad/Programming/Stoh/Lab3/Lab3/obj/Debug/Lab3.exe
+/home/vlad/Programming/Stoh/Lab3/Lab3/obj/Debug/Lab3.pdb

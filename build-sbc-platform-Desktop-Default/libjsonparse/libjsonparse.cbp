@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="libjsonparse"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\lib\;CMake Files\lib\GeographicLib\;CMake Files\lib\GeographicLib\include\;CMake Files\lib\GeographicLib\include\GeographicLib\;CMake Files\lib\GeographicLib\tools\;CMake Files\lib\GeographicLib\src\;CMake Files\lib\GeographicLib\man\;CMake Files\lib\GeographicLib\doc\;CMake Files\lib\GeographicLib\js\;CMake Files\lib\GeographicLib\matlab\;CMake Files\lib\GeographicLib\python\;CMake Files\lib\GeographicLib\python\geographiclib\;CMake Files\lib\GeographicLib\cmake\;CMake Files\lib\libjsonparse\;CMake Files\lib\glog\;CMake Files\lib\glog\cmake\;CMake Files\lib\glog\src\;CMake Files\lib\glog\src\glog\;CMake Files\lib\gtest\;CMake Files\lib\gtest\googlemock\;CMake Files\lib\gtest\googlemock\cmake\;CMake Files\lib\gtest\googletest\;CMake Files\lib\gtest\googletest\cmake\;CMake Files\lib\restclient-cpp\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\gflags\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Qml\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Network\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Quick\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\;CMake Files\..\build-sbc-platform-Desktop-Default\;CMake Files\..\build-sbc-platform-Desktop-Default\restclient\;CMake Files\..\build-sbc-platform-Desktop-Default\src\;CMake Files\..\build-sbc-platform-Desktop-Default\src\IC-Linux\;CMake Files\src\;CMake Files\src\V2X\;CMake Files\src\EmulationServer\;CMake Files\src\IC-Lib\;CMake Files\src\IC-Linux\;CMake Files\src\IC-Linux\cluster_base\;CMake Files\src\IC-Linux\cluster_base\cmake\;CMake Files\src\IC-Linux\cluster_base\src\;CMake Files\src\IC-Linux\cluster_base\src\application\;CMake Files\src\IC-Linux\cluster_base\src\runtime\;CMake Files\src\IC-Linux\qmlplugins\;CMake Files\src\SCS\;CMake Files\src\SCS\mapviewer\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/vlad/Programming/build-sbc-platform-Desktop-Default/libjsonparse"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/vlad/Programming/build-sbc-platform-Desktop-Default/libjsonparse/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/vlad/Programming/build-sbc-platform-Desktop-Default/libjsonparse/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/vlad/Programming/build-sbc-platform-Desktop-Default/libjsonparse/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/vlad/Programming/build-sbc-platform-Desktop-Default/libjsonparse/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="jsonparseShared">
+				<Option output="/home/vlad/Programming/build-sbc-platform-Desktop-Default/libjsonparse/libjsonparse.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vlad/Programming/build-sbc-platform-Desktop-Default/libjsonparse"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/vlad/Programming/sbc-platform/lib/libjsonparse/include"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/vlad/Programming/build-sbc-platform-Desktop-Default/libjsonparse/Makefile&quot;  VERBOSE=1 jsonparseShared"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/vlad/Programming/build-sbc-platform-Desktop-Default/libjsonparse/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/vlad/Programming/build-sbc-platform-Desktop-Default/libjsonparse/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/vlad/Programming/build-sbc-platform-Desktop-Default/libjsonparse/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="jsonparseShared/fast">
+				<Option output="/home/vlad/Programming/build-sbc-platform-Desktop-Default/libjsonparse/libjsonparse.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vlad/Programming/build-sbc-platform-Desktop-Default/libjsonparse"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/vlad/Programming/sbc-platform/lib/libjsonparse/include"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/vlad/Programming/build-sbc-platform-Desktop-Default/libjsonparse/Makefile&quot;  VERBOSE=1 jsonparseShared/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/vlad/Programming/build-sbc-platform-Desktop-Default/libjsonparse/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/vlad/Programming/build-sbc-platform-Desktop-Default/libjsonparse/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/vlad/Programming/build-sbc-platform-Desktop-Default/libjsonparse/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="jsonparse">
+				<Option output="/home/vlad/Programming/build-sbc-platform-Desktop-Default/libjsonparse/libjsonparse.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vlad/Programming/build-sbc-platform-Desktop-Default/libjsonparse"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/vlad/Programming/sbc-platform/lib/libjsonparse/include"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/vlad/Programming/build-sbc-platform-Desktop-Default/libjsonparse/Makefile&quot;  VERBOSE=1 jsonparse"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/vlad/Programming/build-sbc-platform-Desktop-Default/libjsonparse/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/vlad/Programming/build-sbc-platform-Desktop-Default/libjsonparse/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/vlad/Programming/build-sbc-platform-Desktop-Default/libjsonparse/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="jsonparse/fast">
+				<Option output="/home/vlad/Programming/build-sbc-platform-Desktop-Default/libjsonparse/libjsonparse.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vlad/Programming/build-sbc-platform-Desktop-Default/libjsonparse"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/vlad/Programming/sbc-platform/lib/libjsonparse/include"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/vlad/Programming/build-sbc-platform-Desktop-Default/libjsonparse/Makefile&quot;  VERBOSE=1 jsonparse/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/vlad/Programming/build-sbc-platform-Desktop-Default/libjsonparse/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/vlad/Programming/build-sbc-platform-Desktop-Default/libjsonparse/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/vlad/Programming/build-sbc-platform-Desktop-Default/libjsonparse/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main">
+				<Option output="/home/vlad/Programming/build-sbc-platform-Desktop-Default/libjsonparse/main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vlad/Programming/build-sbc-platform-Desktop-Default/libjsonparse"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/vlad/Programming/sbc-platform/lib/libjsonparse/include"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/vlad/Programming/build-sbc-platform-Desktop-Default/libjsonparse/Makefile&quot;  VERBOSE=1 main"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/vlad/Programming/build-sbc-platform-Desktop-Default/libjsonparse/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/vlad/Programming/build-sbc-platform-Desktop-Default/libjsonparse/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/vlad/Programming/build-sbc-platform-Desktop-Default/libjsonparse/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main/fast">
+				<Option output="/home/vlad/Programming/build-sbc-platform-Desktop-Default/libjsonparse/main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vlad/Programming/build-sbc-platform-Desktop-Default/libjsonparse"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/vlad/Programming/sbc-platform/lib/libjsonparse/include"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/vlad/Programming/build-sbc-platform-Desktop-Default/libjsonparse/Makefile&quot;  VERBOSE=1 main/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/vlad/Programming/build-sbc-platform-Desktop-Default/libjsonparse/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/vlad/Programming/build-sbc-platform-Desktop-Default/libjsonparse/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/vlad/Programming/build-sbc-platform-Desktop-Default/libjsonparse/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/vlad/Programming/sbc-platform/lib/libjsonparse/include/ccan_json.h">
+			<Option target="jsonparseShared"/>
+			<Option target="jsonparse"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/lib/libjsonparse/include/defs.h">
+			<Option target="jsonparseShared"/>
+			<Option target="jsonparse"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/lib/libjsonparse/main.c">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/lib/libjsonparse/src/ccan_json.c">
+			<Option target="jsonparseShared"/>
+			<Option target="jsonparse"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/lib/libjsonparse/src/util.c">
+			<Option target="jsonparseShared"/>
+			<Option target="jsonparse"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/lib/GeographicLib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\GeographicLib\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/lib/GeographicLib/include/GeographicLib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\GeographicLib\include\GeographicLib\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/lib/GeographicLib/include/GeographicLib/Config.h.in">
+			<Option virtualFolder="CMake Files\lib\GeographicLib\include\GeographicLib\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/lib/GeographicLib/tools/tests.cmake">
+			<Option virtualFolder="CMake Files\lib\GeographicLib\tools\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/lib/GeographicLib/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\GeographicLib\src\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/lib/GeographicLib/man/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\GeographicLib\man\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/lib/GeographicLib/man/script.8.in">
+			<Option virtualFolder="CMake Files\lib\GeographicLib\man\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/lib/GeographicLib/doc/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\GeographicLib\doc\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/lib/GeographicLib/doc/index.html.in">
+			<Option virtualFolder="CMake Files\lib\GeographicLib\doc\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/lib/GeographicLib/doc/utilities.html.in">
+			<Option virtualFolder="CMake Files\lib\GeographicLib\doc\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/lib/GeographicLib/js/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\GeographicLib\js\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/lib/GeographicLib/matlab/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\GeographicLib\matlab\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/lib/GeographicLib/python/geographiclib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\GeographicLib\python\geographiclib\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/lib/GeographicLib/cmake/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\GeographicLib\cmake\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/lib/GeographicLib/cmake/project-config-version.cmake.in">
+			<Option virtualFolder="CMake Files\lib\GeographicLib\cmake\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/lib/GeographicLib/cmake/project-config.cmake.in">
+			<Option virtualFolder="CMake Files\lib\GeographicLib\cmake\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/lib/GeographicLib/cmake/project.pc.in">
+			<Option virtualFolder="CMake Files\lib\GeographicLib\cmake\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/lib/libjsonparse/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\libjsonparse\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/lib/glog/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\glog\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/lib/glog/glog-config.cmake.in">
+			<Option virtualFolder="CMake Files\lib\glog\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/lib/glog/cmake/DetermineGflagsNamespace.cmake">
+			<Option virtualFolder="CMake Files\lib\glog\cmake\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/lib/glog/src/config.h.cmake.in">
+			<Option virtualFolder="CMake Files\lib\glog\src\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/lib/glog/src/glog/logging.h.in">
+			<Option virtualFolder="CMake Files\lib\glog\src\glog\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/lib/glog/src/glog/raw_logging.h.in">
+			<Option virtualFolder="CMake Files\lib\glog\src\glog\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/lib/glog/src/glog/stl_logging.h.in">
+			<Option virtualFolder="CMake Files\lib\glog\src\glog\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/lib/glog/src/glog/vlog_is_on.h.in">
+			<Option virtualFolder="CMake Files\lib\glog\src\glog\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/lib/gtest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\gtest\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/lib/gtest/googlemock/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\gtest\googlemock\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/lib/gtest/googlemock/cmake/gmock.pc.in">
+			<Option virtualFolder="CMake Files\lib\gtest\googlemock\cmake\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/lib/gtest/googlemock/cmake/gmock_main.pc.in">
+			<Option virtualFolder="CMake Files\lib\gtest\googlemock\cmake\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/lib/gtest/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\gtest\googletest\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/lib/gtest/googletest/cmake/Config.cmake.in">
+			<Option virtualFolder="CMake Files\lib\gtest\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/lib/gtest/googletest/cmake/gtest.pc.in">
+			<Option virtualFolder="CMake Files\lib\gtest\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/lib/gtest/googletest/cmake/gtest_main.pc.in">
+			<Option virtualFolder="CMake Files\lib\gtest\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/lib/gtest/googletest/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\lib\gtest\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/lib/restclient-cpp/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\restclient-cpp\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/../../../../usr/lib/x86_64-linux-gnu/cmake/gflags/gflags-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\gflags\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/../../../../usr/lib/x86_64-linux-gnu/cmake/gflags/gflags-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\gflags\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/../../../../usr/lib/x86_64-linux-gnu/cmake/gflags/gflags-nonamespace-targets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\gflags\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/../../../../usr/lib/x86_64-linux-gnu/cmake/gflags/gflags-nonamespace-targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\gflags\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Qml/Qt5QmlConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Qml/Qt5QmlConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Qml/Qt5QmlConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Qml/Qt5Qml_QDebugMessageServiceFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Qml/Qt5Qml_QLocalClientConnectionFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Qml/Qt5Qml_QQmlDebugServerFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Qml/Qt5Qml_QQmlDebuggerServiceFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Qml/Qt5Qml_QQmlInspectorServiceFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Qml/Qt5Qml_QQmlNativeDebugConnectorFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Qml/Qt5Qml_QQmlNativeDebugServiceFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Qml/Qt5Qml_QQmlPreviewServiceFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Qml/Qt5Qml_QQmlProfilerServiceFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Qml/Qt5Qml_QQuickProfilerAdapterFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Qml/Qt5Qml_QTcpServerConnectionFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Network/Qt5NetworkConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Network\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Network/Qt5NetworkConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Network\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Quick/Qt5QuickConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Quick\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Quick/Qt5QuickConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Quick\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/../build-sbc-platform-Desktop-Default/restclient/restclient-cppConfig.cmake.in">
+			<Option virtualFolder="CMake Files\..\build-sbc-platform-Desktop-Default\restclient\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/../build-sbc-platform-Desktop-Default/restclient/version.h.in">
+			<Option virtualFolder="CMake Files\..\build-sbc-platform-Desktop-Default\restclient\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/../build-sbc-platform-Desktop-Default/src/IC-Linux/SmartCity_IC.qrc">
+			<Option virtualFolder="CMake Files\..\build-sbc-platform-Desktop-Default\src\IC-Linux\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/src/V2X/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\V2X\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/src/EmulationServer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\EmulationServer\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/src/IC-Lib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\IC-Lib\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/src/IC-Linux/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\IC-Linux\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/src/IC-Linux/IC-Linux.compiled.ini.in">
+			<Option virtualFolder="CMake Files\src\IC-Linux\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/src/IC-Linux/qmlproject.builddir.in">
+			<Option virtualFolder="CMake Files\src\IC-Linux\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/src/IC-Linux/qmlproject.in">
+			<Option virtualFolder="CMake Files\src\IC-Linux\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/src/IC-Linux/cluster_base/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\IC-Linux\cluster_base\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/src/IC-Linux/cluster_base/cmake/Qt5Base.cmake">
+			<Option virtualFolder="CMake Files\src\IC-Linux\cluster_base\cmake\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/src/IC-Linux/cluster_base/cmake/WrapQt5.cmake">
+			<Option virtualFolder="CMake Files\src\IC-Linux\cluster_base\cmake\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/src/IC-Linux/cluster_base/src/application/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\IC-Linux\cluster_base\src\application\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/src/IC-Linux/cluster_base/src/application/resourcegen.in">
+			<Option virtualFolder="CMake Files\src\IC-Linux\cluster_base\src\application\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/src/IC-Linux/cluster_base/src/runtime/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\IC-Linux\cluster_base\src\runtime\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/src/IC-Linux/qmlplugins/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\IC-Linux\qmlplugins\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/src/SCS/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\SCS\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/src/SCS/mapviewer/res.qrc">
+			<Option virtualFolder="CMake Files\src\SCS\mapviewer\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

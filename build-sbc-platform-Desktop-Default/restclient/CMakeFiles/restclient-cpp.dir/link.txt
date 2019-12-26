@@ -1,0 +1,1 @@
+/usr/bin/g++ -fPIC -O3 -DNDEBUG  -shared -Wl,-soname,librestclient-cpp.so.2.1.1 -o librestclient-cpp.so.2.1.1 CMakeFiles/restclient-cpp.dir/source/restclient.cc.o CMakeFiles/restclient-cpp.dir/source/connection.cc.o CMakeFiles/restclient-cpp.dir/source/helpers.cc.o /usr/lib/x86_64-linux-gnu/libcurl.so -pthread 

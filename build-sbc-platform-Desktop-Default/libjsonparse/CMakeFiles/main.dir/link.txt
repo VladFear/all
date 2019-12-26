@@ -1,0 +1,1 @@
+/usr/bin/gcc -O3 -DNDEBUG  -rdynamic CMakeFiles/main.dir/main.c.o  -o main -Wl,-rpath,/home/vlad/Programming/build-sbc-platform-Desktop-Default/libjsonparse libjsonparse.so 

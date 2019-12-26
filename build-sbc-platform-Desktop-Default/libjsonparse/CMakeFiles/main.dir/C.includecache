@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/vlad/Programming/sbc-platform/lib/libjsonparse/include/ccan_json.h
+stdbool.h
+-
+stddef.h
+-
+
+/home/vlad/Programming/sbc-platform/lib/libjsonparse/include/defs.h
+assert.h
+-
+stddef.h
+-
+
+/home/vlad/Programming/sbc-platform/lib/libjsonparse/main.c
+stdio.h
+-
+defs.h
+/home/vlad/Programming/sbc-platform/lib/libjsonparse/defs.h
+ccan_json.h
+/home/vlad/Programming/sbc-platform/lib/libjsonparse/ccan_json.h
+

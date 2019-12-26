@@ -1,0 +1,1670 @@
+The system is: Linux - 5.0.0-37-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/3.13.4/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/3.13.4/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_12c8f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_12c8f.dir/build.make CMakeFiles/cmTC_12c8f.dir/build
+make[1]: Entering directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_12c8f.dir/testCCompiler.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTC_12c8f.dir/testCCompiler.c.o   -c /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_12c8f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_12c8f.dir/link.txt --verbose=1
+/usr/bin/gcc      -rdynamic CMakeFiles/cmTC_12c8f.dir/testCCompiler.c.o  -o cmTC_12c8f 
+make[1]: Leaving directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b77e2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b77e2.dir/build.make CMakeFiles/cmTC_b77e2.dir/build
+make[1]: Entering directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b77e2.dir/CMakeCCompilerABI.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTC_b77e2.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.13/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_b77e2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b77e2.dir/link.txt --verbose=1
+/usr/bin/gcc     -v -rdynamic CMakeFiles/cmTC_b77e2.dir/CMakeCCompilerABI.c.o  -o cmTC_b77e2 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/gcc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 8.3.0-6ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-8/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-8 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 8.3.0 (Ubuntu 8.3.0-6ubuntu1) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_b77e2' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/8/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper -plugin-opt=-fresolution=/tmp/ccUdHPyI.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_b77e2 /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/8 -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/8/../../.. CMakeFiles/cmTC_b77e2.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/8/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_b77e2' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_b77e2/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_b77e2.dir/build.make CMakeFiles/cmTC_b77e2.dir/build]
+  ignore line: [make[1]: Entering directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_b77e2.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/gcc    -o CMakeFiles/cmTC_b77e2.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.13/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_b77e2]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b77e2.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/gcc     -v -rdynamic CMakeFiles/cmTC_b77e2.dir/CMakeCCompilerABI.c.o  -o cmTC_b77e2 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 8.3.0-6ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-8/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-8 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 8.3.0 (Ubuntu 8.3.0-6ubuntu1) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_b77e2' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/8/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper -plugin-opt=-fresolution=/tmp/ccUdHPyI.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_b77e2 /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/8 -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/8/../../.. CMakeFiles/cmTC_b77e2.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/8/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/8/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccUdHPyI.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_b77e2] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/8] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/8]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/8/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/8/../../..]
+    arg [CMakeFiles/cmTC_b77e2.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/8/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/8] ==> [/usr/lib/gcc/x86_64-linux-gnu/8]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/8/../../..] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/8;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_21eb4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_21eb4.dir/build.make CMakeFiles/cmTC_21eb4.dir/build
+make[1]: Entering directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_21eb4.dir/feature_tests.c.o
+/usr/bin/gcc   -std=c11 -o CMakeFiles/cmTC_21eb4.dir/feature_tests.c.o   -c /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/feature_tests.c
+Linking C executable cmTC_21eb4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_21eb4.dir/link.txt --verbose=1
+/usr/bin/gcc      -rdynamic CMakeFiles/cmTC_21eb4.dir/feature_tests.c.o  -o cmTC_21eb4 
+make[1]: Leaving directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_61ce3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_61ce3.dir/build.make CMakeFiles/cmTC_61ce3.dir/build
+make[1]: Entering directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_61ce3.dir/feature_tests.c.o
+/usr/bin/gcc   -std=c99 -o CMakeFiles/cmTC_61ce3.dir/feature_tests.c.o   -c /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/feature_tests.c
+Linking C executable cmTC_61ce3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_61ce3.dir/link.txt --verbose=1
+/usr/bin/gcc      -rdynamic CMakeFiles/cmTC_61ce3.dir/feature_tests.c.o  -o cmTC_61ce3 
+make[1]: Leaving directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_50b44/fast"
+/usr/bin/make -f CMakeFiles/cmTC_50b44.dir/build.make CMakeFiles/cmTC_50b44.dir/build
+make[1]: Entering directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_50b44.dir/feature_tests.c.o
+/usr/bin/gcc   -std=c90 -o CMakeFiles/cmTC_50b44.dir/feature_tests.c.o   -c /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/feature_tests.c
+Linking C executable cmTC_50b44
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_50b44.dir/link.txt --verbose=1
+/usr/bin/gcc      -rdynamic CMakeFiles/cmTC_50b44.dir/feature_tests.c.o  -o cmTC_50b44 
+make[1]: Leaving directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3f421/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3f421.dir/build.make CMakeFiles/cmTC_3f421.dir/build
+make[1]: Entering directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3f421.dir/testCXXCompiler.cxx.o
+/usr/bin/g++     -o CMakeFiles/cmTC_3f421.dir/testCXXCompiler.cxx.o -c /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_3f421
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3f421.dir/link.txt --verbose=1
+/usr/bin/g++       -rdynamic CMakeFiles/cmTC_3f421.dir/testCXXCompiler.cxx.o  -o cmTC_3f421 
+make[1]: Leaving directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_33e58/fast"
+/usr/bin/make -f CMakeFiles/cmTC_33e58.dir/build.make CMakeFiles/cmTC_33e58.dir/build
+make[1]: Entering directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_33e58.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/g++     -o CMakeFiles/cmTC_33e58.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.13/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_33e58
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_33e58.dir/link.txt --verbose=1
+/usr/bin/g++      -v -rdynamic CMakeFiles/cmTC_33e58.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_33e58 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/g++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 8.3.0-6ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-8/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-8 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 8.3.0 (Ubuntu 8.3.0-6ubuntu1) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_33e58' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/8/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper -plugin-opt=-fresolution=/tmp/ccoQu8Ff.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_33e58 /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/8 -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/8/../../.. CMakeFiles/cmTC_33e58.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/8/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_33e58' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_33e58/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_33e58.dir/build.make CMakeFiles/cmTC_33e58.dir/build]
+  ignore line: [make[1]: Entering directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_33e58.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/g++     -o CMakeFiles/cmTC_33e58.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.13/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_33e58]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_33e58.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/g++      -v -rdynamic CMakeFiles/cmTC_33e58.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_33e58 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 8.3.0-6ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-8/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-8 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 8.3.0 (Ubuntu 8.3.0-6ubuntu1) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_33e58' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/8/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper -plugin-opt=-fresolution=/tmp/ccoQu8Ff.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_33e58 /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/8 -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/8/../../.. CMakeFiles/cmTC_33e58.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/8/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/8/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccoQu8Ff.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_33e58] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/8] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/8]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/8/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/8/../../..]
+    arg [CMakeFiles/cmTC_33e58.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/8/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/8] ==> [/usr/lib/gcc/x86_64-linux-gnu/8]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/8/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/8;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++2a] compiler features compiled with the following output:
+Change Dir: /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b1d35/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b1d35.dir/build.make CMakeFiles/cmTC_b1d35.dir/build
+make[1]: Entering directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b1d35.dir/feature_tests.cxx.o
+/usr/bin/g++    -std=c++2a -o CMakeFiles/cmTC_b1d35.dir/feature_tests.cxx.o -c /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_b1d35
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b1d35.dir/link.txt --verbose=1
+/usr/bin/g++       -rdynamic CMakeFiles/cmTC_b1d35.dir/feature_tests.cxx.o  -o cmTC_b1d35 
+make[1]: Leaving directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++17] compiler features compiled with the following output:
+Change Dir: /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_53d96/fast"
+/usr/bin/make -f CMakeFiles/cmTC_53d96.dir/build.make CMakeFiles/cmTC_53d96.dir/build
+make[1]: Entering directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_53d96.dir/feature_tests.cxx.o
+/usr/bin/g++    -std=c++17 -o CMakeFiles/cmTC_53d96.dir/feature_tests.cxx.o -c /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_53d96
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_53d96.dir/link.txt --verbose=1
+/usr/bin/g++       -rdynamic CMakeFiles/cmTC_53d96.dir/feature_tests.cxx.o  -o cmTC_53d96 
+make[1]: Leaving directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_db6f3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_db6f3.dir/build.make CMakeFiles/cmTC_db6f3.dir/build
+make[1]: Entering directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_db6f3.dir/feature_tests.cxx.o
+/usr/bin/g++    -std=c++14 -o CMakeFiles/cmTC_db6f3.dir/feature_tests.cxx.o -c /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_db6f3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_db6f3.dir/link.txt --verbose=1
+/usr/bin/g++       -rdynamic CMakeFiles/cmTC_db6f3.dir/feature_tests.cxx.o  -o cmTC_db6f3 
+make[1]: Leaving directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_58ee9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_58ee9.dir/build.make CMakeFiles/cmTC_58ee9.dir/build
+make[1]: Entering directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_58ee9.dir/feature_tests.cxx.o
+/usr/bin/g++    -std=c++11 -o CMakeFiles/cmTC_58ee9.dir/feature_tests.cxx.o -c /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_58ee9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_58ee9.dir/link.txt --verbose=1
+/usr/bin/g++       -rdynamic CMakeFiles/cmTC_58ee9.dir/feature_tests.cxx.o  -o cmTC_58ee9 
+make[1]: Leaving directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6d9ba/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6d9ba.dir/build.make CMakeFiles/cmTC_6d9ba.dir/build
+make[1]: Entering directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6d9ba.dir/feature_tests.cxx.o
+/usr/bin/g++    -std=c++98 -o CMakeFiles/cmTC_6d9ba.dir/feature_tests.cxx.o -c /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_6d9ba
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6d9ba.dir/link.txt --verbose=1
+/usr/bin/g++       -rdynamic CMakeFiles/cmTC_6d9ba.dir/feature_tests.cxx.o  -o cmTC_6d9ba 
+make[1]: Leaving directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
+Determining the gflags namespace passed with the following output:
+Change Dir: /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e4e36/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e4e36.dir/build.make CMakeFiles/cmTC_e4e36.dir/build
+make[1]: Entering directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e4e36.dir/DetermineGflagsNamespace.cxx.o
+/usr/bin/g++  -DGFLAGS_IS_A_DLL=0 -DGLOG_GFLAGS_NAMESPACE=gflags   -o CMakeFiles/cmTC_e4e36.dir/DetermineGflagsNamespace.cxx.o -c /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp/DetermineGflagsNamespace.cxx
+Linking CXX executable cmTC_e4e36
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e4e36.dir/link.txt --verbose=1
+/usr/bin/g++       -rdynamic CMakeFiles/cmTC_e4e36.dir/DetermineGflagsNamespace.cxx.o  -o cmTC_e4e36 /usr/lib/x86_64-linux-gnu/libgflags.so.2.2.2 -lpthread 
+make[1]: Leaving directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e196c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e196c.dir/build.make CMakeFiles/cmTC_e196c.dir/build
+make[1]: Entering directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e196c.dir/CheckIncludeFile.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTC_e196c.dir/CheckIncludeFile.c.o   -c /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_e196c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e196c.dir/link.txt --verbose=1
+/usr/bin/gcc      -rdynamic CMakeFiles/cmTC_e196c.dir/CheckIncludeFile.c.o  -o cmTC_e196c 
+make[1]: Leaving directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e80ec/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e80ec.dir/build.make CMakeFiles/cmTC_e80ec.dir/build
+make[1]: Entering directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e80ec.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_e80ec.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e80ec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e80ec.dir/link.txt --verbose=1
+/usr/bin/gcc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_e80ec.dir/CheckFunctionExists.c.o  -o cmTC_e80ec -lpthread 
+make[1]: Leaving directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file dlfcn.h exists passed with the following output:
+Change Dir: /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_999f4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_999f4.dir/build.make CMakeFiles/cmTC_999f4.dir/build
+make[1]: Entering directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_999f4.dir/CheckIncludeFile.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTC_999f4.dir/CheckIncludeFile.c.o   -c /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_999f4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_999f4.dir/link.txt --verbose=1
+/usr/bin/gcc      -rdynamic CMakeFiles/cmTC_999f4.dir/CheckIncludeFile.c.o  -o cmTC_999f4 
+make[1]: Leaving directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file execinfo.h exists passed with the following output:
+Change Dir: /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_19f0c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_19f0c.dir/build.make CMakeFiles/cmTC_19f0c.dir/build
+make[1]: Entering directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_19f0c.dir/CheckIncludeFile.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTC_19f0c.dir/CheckIncludeFile.c.o   -c /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_19f0c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_19f0c.dir/link.txt --verbose=1
+/usr/bin/gcc      -rdynamic CMakeFiles/cmTC_19f0c.dir/CheckIncludeFile.c.o  -o cmTC_19f0c 
+make[1]: Leaving directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file glob.h exists passed with the following output:
+Change Dir: /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d4222/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d4222.dir/build.make CMakeFiles/cmTC_d4222.dir/build
+make[1]: Entering directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d4222.dir/CheckIncludeFile.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTC_d4222.dir/CheckIncludeFile.c.o   -c /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_d4222
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d4222.dir/link.txt --verbose=1
+/usr/bin/gcc      -rdynamic CMakeFiles/cmTC_d4222.dir/CheckIncludeFile.c.o  -o cmTC_d4222 
+make[1]: Leaving directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f4cf3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f4cf3.dir/build.make CMakeFiles/cmTC_f4cf3.dir/build
+make[1]: Entering directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f4cf3.dir/CheckIncludeFile.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTC_f4cf3.dir/CheckIncludeFile.c.o   -c /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_f4cf3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f4cf3.dir/link.txt --verbose=1
+/usr/bin/gcc      -rdynamic CMakeFiles/cmTC_f4cf3.dir/CheckIncludeFile.c.o  -o cmTC_f4cf3 
+make[1]: Leaving directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file memory.h exists passed with the following output:
+Change Dir: /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c1bbd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c1bbd.dir/build.make CMakeFiles/cmTC_c1bbd.dir/build
+make[1]: Entering directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c1bbd.dir/CheckIncludeFile.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTC_c1bbd.dir/CheckIncludeFile.c.o   -c /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_c1bbd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c1bbd.dir/link.txt --verbose=1
+/usr/bin/gcc      -rdynamic CMakeFiles/cmTC_c1bbd.dir/CheckIncludeFile.c.o  -o cmTC_c1bbd 
+make[1]: Leaving directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file pwd.h exists passed with the following output:
+Change Dir: /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d4ae8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d4ae8.dir/build.make CMakeFiles/cmTC_d4ae8.dir/build
+make[1]: Entering directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d4ae8.dir/CheckIncludeFile.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTC_d4ae8.dir/CheckIncludeFile.c.o   -c /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_d4ae8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d4ae8.dir/link.txt --verbose=1
+/usr/bin/gcc      -rdynamic CMakeFiles/cmTC_d4ae8.dir/CheckIncludeFile.c.o  -o cmTC_d4ae8 
+make[1]: Leaving directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_26fd8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_26fd8.dir/build.make CMakeFiles/cmTC_26fd8.dir/build
+make[1]: Entering directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_26fd8.dir/CheckIncludeFile.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTC_26fd8.dir/CheckIncludeFile.c.o   -c /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_26fd8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_26fd8.dir/link.txt --verbose=1
+/usr/bin/gcc      -rdynamic CMakeFiles/cmTC_26fd8.dir/CheckIncludeFile.c.o  -o cmTC_26fd8 
+make[1]: Leaving directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdlib.h exists passed with the following output:
+Change Dir: /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ba7f0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ba7f0.dir/build.make CMakeFiles/cmTC_ba7f0.dir/build
+make[1]: Entering directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ba7f0.dir/CheckIncludeFile.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTC_ba7f0.dir/CheckIncludeFile.c.o   -c /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_ba7f0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ba7f0.dir/link.txt --verbose=1
+/usr/bin/gcc      -rdynamic CMakeFiles/cmTC_ba7f0.dir/CheckIncludeFile.c.o  -o cmTC_ba7f0 
+make[1]: Leaving directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file string.h exists passed with the following output:
+Change Dir: /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f1ab2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f1ab2.dir/build.make CMakeFiles/cmTC_f1ab2.dir/build
+make[1]: Entering directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f1ab2.dir/CheckIncludeFile.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTC_f1ab2.dir/CheckIncludeFile.c.o   -c /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_f1ab2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f1ab2.dir/link.txt --verbose=1
+/usr/bin/gcc      -rdynamic CMakeFiles/cmTC_f1ab2.dir/CheckIncludeFile.c.o  -o cmTC_f1ab2 
+make[1]: Leaving directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file strings.h exists passed with the following output:
+Change Dir: /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f6cf5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f6cf5.dir/build.make CMakeFiles/cmTC_f6cf5.dir/build
+make[1]: Entering directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f6cf5.dir/CheckIncludeFile.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTC_f6cf5.dir/CheckIncludeFile.c.o   -c /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_f6cf5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f6cf5.dir/link.txt --verbose=1
+/usr/bin/gcc      -rdynamic CMakeFiles/cmTC_f6cf5.dir/CheckIncludeFile.c.o  -o cmTC_f6cf5 
+make[1]: Leaving directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/stat.h exists passed with the following output:
+Change Dir: /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_951cb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_951cb.dir/build.make CMakeFiles/cmTC_951cb.dir/build
+make[1]: Entering directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_951cb.dir/CheckIncludeFile.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTC_951cb.dir/CheckIncludeFile.c.o   -c /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_951cb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_951cb.dir/link.txt --verbose=1
+/usr/bin/gcc      -rdynamic CMakeFiles/cmTC_951cb.dir/CheckIncludeFile.c.o  -o cmTC_951cb 
+make[1]: Leaving directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/syscall.h exists passed with the following output:
+Change Dir: /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b298e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b298e.dir/build.make CMakeFiles/cmTC_b298e.dir/build
+make[1]: Entering directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b298e.dir/CheckIncludeFile.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTC_b298e.dir/CheckIncludeFile.c.o   -c /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_b298e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b298e.dir/link.txt --verbose=1
+/usr/bin/gcc      -rdynamic CMakeFiles/cmTC_b298e.dir/CheckIncludeFile.c.o  -o cmTC_b298e 
+make[1]: Leaving directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/time.h exists passed with the following output:
+Change Dir: /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_50820/fast"
+/usr/bin/make -f CMakeFiles/cmTC_50820.dir/build.make CMakeFiles/cmTC_50820.dir/build
+make[1]: Entering directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_50820.dir/CheckIncludeFile.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTC_50820.dir/CheckIncludeFile.c.o   -c /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_50820
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_50820.dir/link.txt --verbose=1
+/usr/bin/gcc      -rdynamic CMakeFiles/cmTC_50820.dir/CheckIncludeFile.c.o  -o cmTC_50820 
+make[1]: Leaving directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2430c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2430c.dir/build.make CMakeFiles/cmTC_2430c.dir/build
+make[1]: Entering directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2430c.dir/CheckIncludeFile.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTC_2430c.dir/CheckIncludeFile.c.o   -c /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_2430c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2430c.dir/link.txt --verbose=1
+/usr/bin/gcc      -rdynamic CMakeFiles/cmTC_2430c.dir/CheckIncludeFile.c.o  -o cmTC_2430c 
+make[1]: Leaving directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/utsname.h exists passed with the following output:
+Change Dir: /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fb995/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fb995.dir/build.make CMakeFiles/cmTC_fb995.dir/build
+make[1]: Entering directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fb995.dir/CheckIncludeFile.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTC_fb995.dir/CheckIncludeFile.c.o   -c /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_fb995
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fb995.dir/link.txt --verbose=1
+/usr/bin/gcc      -rdynamic CMakeFiles/cmTC_fb995.dir/CheckIncludeFile.c.o  -o cmTC_fb995 
+make[1]: Leaving directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file syscall.h exists passed with the following output:
+Change Dir: /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0ab00/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0ab00.dir/build.make CMakeFiles/cmTC_0ab00.dir/build
+make[1]: Entering directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0ab00.dir/CheckIncludeFile.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTC_0ab00.dir/CheckIncludeFile.c.o   -c /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_0ab00
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0ab00.dir/link.txt --verbose=1
+/usr/bin/gcc      -rdynamic CMakeFiles/cmTC_0ab00.dir/CheckIncludeFile.c.o  -o cmTC_0ab00 
+make[1]: Leaving directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file syslog.h exists passed with the following output:
+Change Dir: /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_97928/fast"
+/usr/bin/make -f CMakeFiles/cmTC_97928.dir/build.make CMakeFiles/cmTC_97928.dir/build
+make[1]: Entering directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_97928.dir/CheckIncludeFile.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTC_97928.dir/CheckIncludeFile.c.o   -c /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_97928
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_97928.dir/link.txt --verbose=1
+/usr/bin/gcc      -rdynamic CMakeFiles/cmTC_97928.dir/CheckIncludeFile.c.o  -o cmTC_97928 
+make[1]: Leaving directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file ucontext.h exists passed with the following output:
+Change Dir: /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ef42d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ef42d.dir/build.make CMakeFiles/cmTC_ef42d.dir/build
+make[1]: Entering directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ef42d.dir/CheckIncludeFile.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTC_ef42d.dir/CheckIncludeFile.c.o   -c /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_ef42d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ef42d.dir/link.txt --verbose=1
+/usr/bin/gcc      -rdynamic CMakeFiles/cmTC_ef42d.dir/CheckIncludeFile.c.o  -o cmTC_ef42d 
+make[1]: Leaving directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f91e0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f91e0.dir/build.make CMakeFiles/cmTC_f91e0.dir/build
+make[1]: Entering directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f91e0.dir/CheckIncludeFile.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTC_f91e0.dir/CheckIncludeFile.c.o   -c /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_f91e0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f91e0.dir/link.txt --verbose=1
+/usr/bin/gcc      -rdynamic CMakeFiles/cmTC_f91e0.dir/CheckIncludeFile.c.o  -o cmTC_f91e0 
+make[1]: Leaving directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file unwind.h exists passed with the following output:
+Change Dir: /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a1a4c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a1a4c.dir/build.make CMakeFiles/cmTC_a1a4c.dir/build
+make[1]: Entering directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a1a4c.dir/CheckIncludeFile.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTC_a1a4c.dir/CheckIncludeFile.c.o   -c /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_a1a4c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a1a4c.dir/link.txt --verbose=1
+/usr/bin/gcc      -rdynamic CMakeFiles/cmTC_a1a4c.dir/CheckIncludeFile.c.o  -o cmTC_a1a4c 
+make[1]: Leaving directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file ext/hash_map exists passed with the following output:
+Change Dir: /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6e365/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6e365.dir/build.make CMakeFiles/cmTC_6e365.dir/build
+make[1]: Entering directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6e365.dir/CheckIncludeFile.cxx.o
+/usr/bin/g++     -o CMakeFiles/cmTC_6e365.dir/CheckIncludeFile.cxx.o -c /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+In file included from /usr/include/c++/8/ext/hash_map:60,
+                 from /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:
+/usr/include/c++/8/backward/backward_warning.h:32:2: warning: #warning This file includes at least one deprecated or antiquated header which may be removed without further notice at a future date. Please use a non-deprecated interface with equivalent functionality instead. For a listing of replacement headers and interfaces, consult the file backward_warning.h. To disable this warning use -Wno-deprecated. [-Wcpp]
+ #warning \
+  ^~~~~~~
+Linking CXX executable cmTC_6e365
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6e365.dir/link.txt --verbose=1
+/usr/bin/g++       -rdynamic CMakeFiles/cmTC_6e365.dir/CheckIncludeFile.cxx.o  -o cmTC_6e365 
+make[1]: Leaving directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file ext/hash_set exists passed with the following output:
+Change Dir: /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1088b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1088b.dir/build.make CMakeFiles/cmTC_1088b.dir/build
+make[1]: Entering directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1088b.dir/CheckIncludeFile.cxx.o
+/usr/bin/g++     -o CMakeFiles/cmTC_1088b.dir/CheckIncludeFile.cxx.o -c /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+In file included from /usr/include/c++/8/ext/hash_set:60,
+                 from /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:
+/usr/include/c++/8/backward/backward_warning.h:32:2: warning: #warning This file includes at least one deprecated or antiquated header which may be removed without further notice at a future date. Please use a non-deprecated interface with equivalent functionality instead. For a listing of replacement headers and interfaces, consult the file backward_warning.h. To disable this warning use -Wno-deprecated. [-Wcpp]
+ #warning \
+  ^~~~~~~
+Linking CXX executable cmTC_1088b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1088b.dir/link.txt --verbose=1
+/usr/bin/g++       -rdynamic CMakeFiles/cmTC_1088b.dir/CheckIncludeFile.cxx.o  -o cmTC_1088b 
+make[1]: Leaving directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file ext/slist exists passed with the following output:
+Change Dir: /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_501c8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_501c8.dir/build.make CMakeFiles/cmTC_501c8.dir/build
+make[1]: Entering directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_501c8.dir/CheckIncludeFile.cxx.o
+/usr/bin/g++     -o CMakeFiles/cmTC_501c8.dir/CheckIncludeFile.cxx.o -c /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_501c8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_501c8.dir/link.txt --verbose=1
+/usr/bin/g++       -rdynamic CMakeFiles/cmTC_501c8.dir/CheckIncludeFile.cxx.o  -o cmTC_501c8 
+make[1]: Leaving directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file tr1/unordered_map exists passed with the following output:
+Change Dir: /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cce16/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cce16.dir/build.make CMakeFiles/cmTC_cce16.dir/build
+make[1]: Entering directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_cce16.dir/CheckIncludeFile.cxx.o
+/usr/bin/g++     -o CMakeFiles/cmTC_cce16.dir/CheckIncludeFile.cxx.o -c /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_cce16
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cce16.dir/link.txt --verbose=1
+/usr/bin/g++       -rdynamic CMakeFiles/cmTC_cce16.dir/CheckIncludeFile.cxx.o  -o cmTC_cce16 
+make[1]: Leaving directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file tr1/unordered_set exists passed with the following output:
+Change Dir: /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6ceaf/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6ceaf.dir/build.make CMakeFiles/cmTC_6ceaf.dir/build
+make[1]: Entering directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6ceaf.dir/CheckIncludeFile.cxx.o
+/usr/bin/g++     -o CMakeFiles/cmTC_6ceaf.dir/CheckIncludeFile.cxx.o -c /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_6ceaf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6ceaf.dir/link.txt --verbose=1
+/usr/bin/g++       -rdynamic CMakeFiles/cmTC_6ceaf.dir/CheckIncludeFile.cxx.o  -o cmTC_6ceaf 
+make[1]: Leaving directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file unordered_map exists passed with the following output:
+Change Dir: /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fef69/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fef69.dir/build.make CMakeFiles/cmTC_fef69.dir/build
+make[1]: Entering directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_fef69.dir/CheckIncludeFile.cxx.o
+/usr/bin/g++     -o CMakeFiles/cmTC_fef69.dir/CheckIncludeFile.cxx.o -c /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_fef69
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fef69.dir/link.txt --verbose=1
+/usr/bin/g++       -rdynamic CMakeFiles/cmTC_fef69.dir/CheckIncludeFile.cxx.o  -o cmTC_fef69 
+make[1]: Leaving directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file unordered_set exists passed with the following output:
+Change Dir: /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bebb1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bebb1.dir/build.make CMakeFiles/cmTC_bebb1.dir/build
+make[1]: Entering directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_bebb1.dir/CheckIncludeFile.cxx.o
+/usr/bin/g++     -o CMakeFiles/cmTC_bebb1.dir/CheckIncludeFile.cxx.o -c /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_bebb1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bebb1.dir/link.txt --verbose=1
+/usr/bin/g++       -rdynamic CMakeFiles/cmTC_bebb1.dir/CheckIncludeFile.cxx.o  -o cmTC_bebb1 
+make[1]: Leaving directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c518e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c518e.dir/build.make CMakeFiles/cmTC_c518e.dir/build
+make[1]: Entering directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c518e.dir/CheckIncludeFile.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTC_c518e.dir/CheckIncludeFile.c.o   -c /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_c518e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c518e.dir/link.txt --verbose=1
+/usr/bin/gcc      -rdynamic CMakeFiles/cmTC_c518e.dir/CheckIncludeFile.c.o  -o cmTC_c518e 
+make[1]: Leaving directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+
+
+Determining size of u_int16_t passed with the following output:
+Change Dir: /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a3993/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a3993.dir/build.make CMakeFiles/cmTC_a3993.dir/build
+make[1]: Entering directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a3993.dir/HAVE_U_INT16_T.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTC_a3993.dir/HAVE_U_INT16_T.c.o   -c /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CheckTypeSize/HAVE_U_INT16_T.c
+Linking C executable cmTC_a3993
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a3993.dir/link.txt --verbose=1
+/usr/bin/gcc      -rdynamic CMakeFiles/cmTC_a3993.dir/HAVE_U_INT16_T.c.o  -o cmTC_a3993 
+make[1]: Leaving directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+
+
+Determining size of uint16_t passed with the following output:
+Change Dir: /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_beb75/fast"
+/usr/bin/make -f CMakeFiles/cmTC_beb75.dir/build.make CMakeFiles/cmTC_beb75.dir/build
+make[1]: Entering directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_beb75.dir/HAVE_UINT16_T.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTC_beb75.dir/HAVE_UINT16_T.c.o   -c /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CheckTypeSize/HAVE_UINT16_T.c
+Linking C executable cmTC_beb75
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_beb75.dir/link.txt --verbose=1
+/usr/bin/gcc      -rdynamic CMakeFiles/cmTC_beb75.dir/HAVE_UINT16_T.c.o  -o cmTC_beb75 
+make[1]: Leaving directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+
+
+Determining if the function fcntl exists passed with the following output:
+Change Dir: /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e4195/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e4195.dir/build.make CMakeFiles/cmTC_e4195.dir/build
+make[1]: Entering directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e4195.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=fcntl   -o CMakeFiles/cmTC_e4195.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e4195
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e4195.dir/link.txt --verbose=1
+/usr/bin/gcc  -DCHECK_FUNCTION_EXISTS=fcntl    -rdynamic CMakeFiles/cmTC_e4195.dir/CheckFunctionExists.c.o  -o cmTC_e4195 
+make[1]: Leaving directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pread exists passed with the following output:
+Change Dir: /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_11649/fast"
+/usr/bin/make -f CMakeFiles/cmTC_11649.dir/build.make CMakeFiles/cmTC_11649.dir/build
+make[1]: Entering directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_11649.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=pread   -o CMakeFiles/cmTC_11649.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_11649
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_11649.dir/link.txt --verbose=1
+/usr/bin/gcc  -DCHECK_FUNCTION_EXISTS=pread    -rdynamic CMakeFiles/cmTC_11649.dir/CheckFunctionExists.c.o  -o cmTC_11649 
+make[1]: Leaving directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pwrite exists passed with the following output:
+Change Dir: /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c4b80/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c4b80.dir/build.make CMakeFiles/cmTC_c4b80.dir/build
+make[1]: Entering directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c4b80.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=pwrite   -o CMakeFiles/cmTC_c4b80.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c4b80
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c4b80.dir/link.txt --verbose=1
+/usr/bin/gcc  -DCHECK_FUNCTION_EXISTS=pwrite    -rdynamic CMakeFiles/cmTC_c4b80.dir/CheckFunctionExists.c.o  -o cmTC_c4b80 
+make[1]: Leaving directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+
+
+Determining if the function sigaction exists passed with the following output:
+Change Dir: /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4f1b8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4f1b8.dir/build.make CMakeFiles/cmTC_4f1b8.dir/build
+make[1]: Entering directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4f1b8.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=sigaction   -o CMakeFiles/cmTC_4f1b8.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_4f1b8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4f1b8.dir/link.txt --verbose=1
+/usr/bin/gcc  -DCHECK_FUNCTION_EXISTS=sigaction    -rdynamic CMakeFiles/cmTC_4f1b8.dir/CheckFunctionExists.c.o  -o cmTC_4f1b8 
+make[1]: Leaving directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+
+
+Determining if the function sigaltstack exists passed with the following output:
+Change Dir: /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_170a7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_170a7.dir/build.make CMakeFiles/cmTC_170a7.dir/build
+make[1]: Entering directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_170a7.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=sigaltstack   -o CMakeFiles/cmTC_170a7.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_170a7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_170a7.dir/link.txt --verbose=1
+/usr/bin/gcc  -DCHECK_FUNCTION_EXISTS=sigaltstack    -rdynamic CMakeFiles/cmTC_170a7.dir/CheckFunctionExists.c.o  -o cmTC_170a7 
+make[1]: Leaving directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+
+
+Performing C++ SOURCE FILE Test HAVE_NO_DEPRECATED succeeded with the following output:
+Change Dir: /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_52cd8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_52cd8.dir/build.make CMakeFiles/cmTC_52cd8.dir/build
+make[1]: Entering directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_52cd8.dir/src.cxx.o
+/usr/bin/g++    -DHAVE_NO_DEPRECATED   -Wdeprecated -o CMakeFiles/cmTC_52cd8.dir/src.cxx.o -c /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_52cd8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_52cd8.dir/link.txt --verbose=1
+/usr/bin/g++   -DHAVE_NO_DEPRECATED    -rdynamic CMakeFiles/cmTC_52cd8.dir/src.cxx.o  -o cmTC_52cd8 
+make[1]: Leaving directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Determining if the snprintf exist passed with the following output:
+Change Dir: /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_67db0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_67db0.dir/build.make CMakeFiles/cmTC_67db0.dir/build
+make[1]: Entering directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_67db0.dir/CheckSymbolExists.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTC_67db0.dir/CheckSymbolExists.c.o   -c /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_67db0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_67db0.dir/link.txt --verbose=1
+/usr/bin/gcc      -rdynamic CMakeFiles/cmTC_67db0.dir/CheckSymbolExists.c.o  -o cmTC_67db0 
+make[1]: Leaving directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+
+File /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef snprintf
+  return ((int*)(&snprintf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C SOURCE FILE Test HAVE___ATTRIBUTE__ succeeded with the following output:
+Change Dir: /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f8173/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f8173.dir/build.make CMakeFiles/cmTC_f8173.dir/build
+make[1]: Entering directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f8173.dir/src.c.o
+/usr/bin/gcc   -DHAVE___ATTRIBUTE__   -o CMakeFiles/cmTC_f8173.dir/src.c.o   -c /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_f8173
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f8173.dir/link.txt --verbose=1
+/usr/bin/gcc  -DHAVE___ATTRIBUTE__    -rdynamic CMakeFiles/cmTC_f8173.dir/src.c.o  -o cmTC_f8173 
+make[1]: Leaving directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#include <stdlib.h>
+static void foo(void) __attribute__ ((unused));
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test HAVE___ATTRIBUTE__VISIBILITY_DEFAULT succeeded with the following output:
+Change Dir: /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f182f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f182f.dir/build.make CMakeFiles/cmTC_f182f.dir/build
+make[1]: Entering directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f182f.dir/src.c.o
+/usr/bin/gcc   -DHAVE___ATTRIBUTE__VISIBILITY_DEFAULT   -o CMakeFiles/cmTC_f182f.dir/src.c.o   -c /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp/src.c
+/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp/src.c:3:1: warning: ‘visibility’ attribute ignored [-Wattributes]
+ static void foo(void) __attribute__ ((visibility("default")));
+ ^~~~~~
+Linking C executable cmTC_f182f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f182f.dir/link.txt --verbose=1
+/usr/bin/gcc  -DHAVE___ATTRIBUTE__VISIBILITY_DEFAULT    -rdynamic CMakeFiles/cmTC_f182f.dir/src.c.o  -o cmTC_f182f 
+make[1]: Leaving directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#include <stdlib.h>
+static void foo(void) __attribute__ ((visibility("default")));
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test HAVE___ATTRIBUTE__VISIBILITY_HIDDEN succeeded with the following output:
+Change Dir: /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_dc994/fast"
+/usr/bin/make -f CMakeFiles/cmTC_dc994.dir/build.make CMakeFiles/cmTC_dc994.dir/build
+make[1]: Entering directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dc994.dir/src.c.o
+/usr/bin/gcc   -DHAVE___ATTRIBUTE__VISIBILITY_HIDDEN   -o CMakeFiles/cmTC_dc994.dir/src.c.o   -c /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp/src.c
+/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp/src.c:3:1: warning: ‘visibility’ attribute ignored [-Wattributes]
+ static void foo(void) __attribute__ ((visibility("hidden")));
+ ^~~~~~
+Linking C executable cmTC_dc994
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dc994.dir/link.txt --verbose=1
+/usr/bin/gcc  -DHAVE___ATTRIBUTE__VISIBILITY_HIDDEN    -rdynamic CMakeFiles/cmTC_dc994.dir/src.c.o  -o cmTC_dc994 
+make[1]: Leaving directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#include <stdlib.h>
+static void foo(void) __attribute__ ((visibility("hidden")));
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test HAVE___BUILTIN_EXPECT succeeded with the following output:
+Change Dir: /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_60b26/fast"
+/usr/bin/make -f CMakeFiles/cmTC_60b26.dir/build.make CMakeFiles/cmTC_60b26.dir/build
+make[1]: Entering directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_60b26.dir/src.c.o
+/usr/bin/gcc   -DHAVE___BUILTIN_EXPECT   -o CMakeFiles/cmTC_60b26.dir/src.c.o   -c /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_60b26
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_60b26.dir/link.txt --verbose=1
+/usr/bin/gcc  -DHAVE___BUILTIN_EXPECT    -rdynamic CMakeFiles/cmTC_60b26.dir/src.c.o  -o cmTC_60b26 
+make[1]: Leaving directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+int main(void) { if (__builtin_expect(0, 0)) return 1; return 0; }
+
+Performing C SOURCE FILE Test HAVE___SYNC_VAL_COMPARE_AND_SWAP succeeded with the following output:
+Change Dir: /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_74bba/fast"
+/usr/bin/make -f CMakeFiles/cmTC_74bba.dir/build.make CMakeFiles/cmTC_74bba.dir/build
+make[1]: Entering directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_74bba.dir/src.c.o
+/usr/bin/gcc   -DHAVE___SYNC_VAL_COMPARE_AND_SWAP   -o CMakeFiles/cmTC_74bba.dir/src.c.o   -c /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_74bba
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_74bba.dir/link.txt --verbose=1
+/usr/bin/gcc  -DHAVE___SYNC_VAL_COMPARE_AND_SWAP    -rdynamic CMakeFiles/cmTC_74bba.dir/src.c.o  -o cmTC_74bba 
+make[1]: Leaving directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+int main(void)
+{
+  int a; if (__sync_val_compare_and_swap(&a, 0, 1)) return 1; return 0;
+}
+
+Performing C++ SOURCE FILE Test STL_STD_NAMESPACE succeeded with the following output:
+Change Dir: /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c0e64/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c0e64.dir/build.make CMakeFiles/cmTC_c0e64.dir/build
+make[1]: Entering directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c0e64.dir/src.cxx.o
+/usr/bin/g++    -DSTL_STD_NAMESPACE   -o CMakeFiles/cmTC_c0e64.dir/src.cxx.o -c /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_c0e64
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c0e64.dir/link.txt --verbose=1
+/usr/bin/g++   -DSTL_STD_NAMESPACE    -rdynamic CMakeFiles/cmTC_c0e64.dir/src.cxx.o  -o cmTC_c0e64 
+make[1]: Leaving directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#include <vector>
+std::vector<int> t; int main() { }
+
+Performing C++ SOURCE FILE Test HAVE_USING_OPERATOR succeeded with the following output:
+Change Dir: /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c7dad/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c7dad.dir/build.make CMakeFiles/cmTC_c7dad.dir/build
+make[1]: Entering directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c7dad.dir/src.cxx.o
+/usr/bin/g++    -DHAVE_USING_OPERATOR   -o CMakeFiles/cmTC_c7dad.dir/src.cxx.o -c /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_c7dad
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c7dad.dir/link.txt --verbose=1
+/usr/bin/g++   -DHAVE_USING_OPERATOR    -rdynamic CMakeFiles/cmTC_c7dad.dir/src.cxx.o  -o cmTC_c7dad 
+make[1]: Leaving directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#include <iostream>
+std::ostream& operator<<(std::ostream&, struct s);
+using ::operator<<;
+int main() { }
+
+Performing C++ SOURCE FILE Test HAVE_NAMESPACES succeeded with the following output:
+Change Dir: /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1fbd3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1fbd3.dir/build.make CMakeFiles/cmTC_1fbd3.dir/build
+make[1]: Entering directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1fbd3.dir/src.cxx.o
+/usr/bin/g++    -DHAVE_NAMESPACES   -o CMakeFiles/cmTC_1fbd3.dir/src.cxx.o -c /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_1fbd3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1fbd3.dir/link.txt --verbose=1
+/usr/bin/g++   -DHAVE_NAMESPACES    -rdynamic CMakeFiles/cmTC_1fbd3.dir/src.cxx.o  -o cmTC_1fbd3 
+make[1]: Leaving directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+namespace Outer { namespace Inner { int i = 0; }}
+using namespace Outer::Inner;;
+int main() { return i; }
+
+Performing C++ SOURCE FILE Test HAVE_GCC_TLS succeeded with the following output:
+Change Dir: /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ed910/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ed910.dir/build.make CMakeFiles/cmTC_ed910.dir/build
+make[1]: Entering directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ed910.dir/src.cxx.o
+/usr/bin/g++    -DHAVE_GCC_TLS   -o CMakeFiles/cmTC_ed910.dir/src.cxx.o -c /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_ed910
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ed910.dir/link.txt --verbose=1
+/usr/bin/g++   -DHAVE_GCC_TLS    -rdynamic CMakeFiles/cmTC_ed910.dir/src.cxx.o  -o cmTC_ed910 
+make[1]: Leaving directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+__thread int tls;
+int main() { }
+
+Performing C++ SOURCE FILE Test HAVE_CXX11_TLS succeeded with the following output:
+Change Dir: /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7bf81/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7bf81.dir/build.make CMakeFiles/cmTC_7bf81.dir/build
+make[1]: Entering directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7bf81.dir/src.cxx.o
+/usr/bin/g++    -DHAVE_CXX11_TLS   -o CMakeFiles/cmTC_7bf81.dir/src.cxx.o -c /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_7bf81
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7bf81.dir/link.txt --verbose=1
+/usr/bin/g++   -DHAVE_CXX11_TLS    -rdynamic CMakeFiles/cmTC_7bf81.dir/src.cxx.o  -o cmTC_7bf81 
+make[1]: Leaving directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+thread_local int tls;
+int main() { }
+
+Performing C++ SOURCE FILE Test HAVE_ALIGNED_STORAGE succeeded with the following output:
+Change Dir: /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f83db/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f83db.dir/build.make CMakeFiles/cmTC_f83db.dir/build
+make[1]: Entering directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f83db.dir/src.cxx.o
+/usr/bin/g++    -DHAVE_ALIGNED_STORAGE   -o CMakeFiles/cmTC_f83db.dir/src.cxx.o -c /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_f83db
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f83db.dir/link.txt --verbose=1
+/usr/bin/g++   -DHAVE_ALIGNED_STORAGE    -rdynamic CMakeFiles/cmTC_f83db.dir/src.cxx.o  -o cmTC_f83db 
+make[1]: Leaving directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#include <type_traits>
+std::aligned_storage<sizeof(char), alignof(char)>::type data;
+int main() { }
+
+Performing C++ SOURCE FILE Test HAVE_LOCALTIME_R succeeded with the following output:
+Change Dir: /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_288d1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_288d1.dir/build.make CMakeFiles/cmTC_288d1.dir/build
+make[1]: Entering directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_288d1.dir/src.cxx.o
+/usr/bin/g++    -DHAVE_LOCALTIME_R   -o CMakeFiles/cmTC_288d1.dir/src.cxx.o -c /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_288d1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_288d1.dir/link.txt --verbose=1
+/usr/bin/g++   -DHAVE_LOCALTIME_R    -rdynamic CMakeFiles/cmTC_288d1.dir/src.cxx.o  -o cmTC_288d1 
+make[1]: Leaving directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#include <cstdlib>
+#include <time.h>
+int main()
+{
+    time_t timep;
+    struct tm result;
+    localtime_r(&timep, &result);
+    return EXIT_SUCCESS;
+}
+
+Determining size of long double passed with the following output:
+Change Dir: /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a2196/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a2196.dir/build.make CMakeFiles/cmTC_a2196.dir/build
+make[1]: Entering directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a2196.dir/LONG_DOUBLE.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTC_a2196.dir/LONG_DOUBLE.c.o   -c /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CheckTypeSize/LONG_DOUBLE.c
+Linking C executable cmTC_a2196
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a2196.dir/link.txt --verbose=1
+/usr/bin/gcc      -rdynamic CMakeFiles/cmTC_a2196.dir/LONG_DOUBLE.c.o  -o cmTC_a2196 
+make[1]: Leaving directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+
+
+Determining size of double passed with the following output:
+Change Dir: /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a6c60/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a6c60.dir/build.make CMakeFiles/cmTC_a6c60.dir/build
+make[1]: Entering directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a6c60.dir/DOUBLE.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTC_a6c60.dir/DOUBLE.c.o   -c /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CheckTypeSize/DOUBLE.c
+Linking C executable cmTC_a6c60
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a6c60.dir/link.txt --verbose=1
+/usr/bin/gcc      -rdynamic CMakeFiles/cmTC_a6c60.dir/DOUBLE.c.o  -o cmTC_a6c60 
+make[1]: Leaving directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+
+
+Determining size of unsigned short passed with the following output:
+Change Dir: /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_17dc1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_17dc1.dir/build.make CMakeFiles/cmTC_17dc1.dir/build
+make[1]: Entering directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_17dc1.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTC_17dc1.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o   -c /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CheckTypeSize/CMAKE_SIZEOF_UNSIGNED_SHORT.c
+Linking C executable cmTC_17dc1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_17dc1.dir/link.txt --verbose=1
+/usr/bin/gcc      -rdynamic CMakeFiles/cmTC_17dc1.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o  -o cmTC_17dc1 
+make[1]: Leaving directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+
+
+Determining if the system is big endian passed with the following output:
+Change Dir: /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_abdc9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_abdc9.dir/build.make CMakeFiles/cmTC_abdc9.dir/build
+make[1]: Entering directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_abdc9.dir/TestEndianess.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTC_abdc9.dir/TestEndianess.c.o   -c /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp/TestEndianess.c
+Linking C executable cmTC_abdc9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_abdc9.dir/link.txt --verbose=1
+/usr/bin/gcc      -rdynamic CMakeFiles/cmTC_abdc9.dir/TestEndianess.c.o  -o cmTC_abdc9 
+make[1]: Leaving directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+
+TestEndianess.c:
+/* A 16 bit integer is required. */
+typedef unsigned short cmakeint16;
+
+/* On a little endian machine, these 16bit ints will give "THIS IS LITTLE ENDIAN."
+   On a big endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_little[] =  {0x4854, 0x5349, 0x4920, 0x2053, 0x494c, 0x5454, 0x454c, 0x4520, 0x444e, 0x4149, 0x2e4e, 0x0000};
+
+/* on a big endian machine, these 16bit ints will give "THIS IS BIG ENDIAN."
+   On a little endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_big[] =     {0x5448, 0x4953, 0x2049, 0x5320, 0x4249, 0x4720, 0x454e, 0x4449, 0x414e, 0x2e2e, 0x0000};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_little[argc];
+  require += info_big[argc];
+  (void)argv;
+  return require;
+}
+
+
+Performing C++ SOURCE FILE Test FLOAT_CONVERSION succeeded with the following output:
+Change Dir: /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bbe26/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bbe26.dir/build.make CMakeFiles/cmTC_bbe26.dir/build
+make[1]: Entering directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_bbe26.dir/src.cxx.o
+/usr/bin/g++    -DFLOAT_CONVERSION   -Wfloat-conversion -o CMakeFiles/cmTC_bbe26.dir/src.cxx.o -c /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_bbe26
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bbe26.dir/link.txt --verbose=1
+/usr/bin/g++   -DFLOAT_CONVERSION    -rdynamic CMakeFiles/cmTC_bbe26.dir/src.cxx.o  -o cmTC_bbe26 
+make[1]: Leaving directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX11_MATH succeeded with the following output:
+Change Dir: /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9c60c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9c60c.dir/build.make CMakeFiles/cmTC_9c60c.dir/build
+make[1]: Entering directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9c60c.dir/src.cxx.o
+/usr/bin/g++    -Wall -Wextra -Wfloat-conversion -DCXX11_MATH  -Wall -Wextra -Wfloat-conversion -Werror   -o CMakeFiles/cmTC_9c60c.dir/src.cxx.o -c /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_9c60c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9c60c.dir/link.txt --verbose=1
+/usr/bin/g++   -Wall -Wextra -Wfloat-conversion -DCXX11_MATH  -Wall -Wextra -Wfloat-conversion -Werror    -rdynamic CMakeFiles/cmTC_9c60c.dir/src.cxx.o  -o cmTC_9c60c 
+make[1]: Leaving directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <cmath>
+int main() {
+  int q;
+  return int(std::hypot(3.0, 4.0) + std::expm1(0.5) +
+             std::log1p(2.0) + std::asinh(10.0) +
+             std::atanh(0.8) + std::cbrt(8.0) +
+             std::fma(1.0, 2.0, 3.0) + std::remquo(100.0, 90.0, &q) +
+             std::remainder(100.0, 90.0) + std::copysign(1.0, -0.0) +
+             std::round(3.5)) +
+         std::isfinite(4.0) + std::isnan(0.0) + int(std::lround(-3.5));
+}
+
+Performing C++ SOURCE FILE Test CXX11_STATIC_ASSERT succeeded with the following output:
+Change Dir: /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_160d3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_160d3.dir/build.make CMakeFiles/cmTC_160d3.dir/build
+make[1]: Entering directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_160d3.dir/src.cxx.o
+/usr/bin/g++    -Wall -Wextra -Wfloat-conversion -DCXX11_STATIC_ASSERT  -Wall -Wextra -Wfloat-conversion -Werror   -o CMakeFiles/cmTC_160d3.dir/src.cxx.o -c /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_160d3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_160d3.dir/link.txt --verbose=1
+/usr/bin/g++   -Wall -Wextra -Wfloat-conversion -DCXX11_STATIC_ASSERT  -Wall -Wextra -Wfloat-conversion -Werror    -rdynamic CMakeFiles/cmTC_160d3.dir/src.cxx.o  -o cmTC_160d3 
+make[1]: Leaving directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <cmath>
+int main() {
+  static_assert(true, "static assert test");
+  return 0;
+}
+

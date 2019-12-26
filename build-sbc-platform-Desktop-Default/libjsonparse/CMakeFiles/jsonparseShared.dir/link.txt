@@ -1,0 +1,1 @@
+/usr/bin/gcc -fPIC -O3 -DNDEBUG  -shared -Wl,-soname,libjsonparse.so -o libjsonparse.so CMakeFiles/jsonparseShared.dir/src/ccan_json.c.o CMakeFiles/jsonparseShared.dir/src/util.c.o 

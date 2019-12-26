@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/vlad/Programming/sbc-platform/src/EmulationServer/ccu/inc/glogwrapper.h
+
+/home/vlad/Programming/sbc-platform/src/EmulationServer/ccu/inc/logger.h
+
+/home/vlad/Programming/sbc-platform/src/EmulationServer/ccu/src/logger.c
+stdarg.h
+-
+stdio.h
+-
+stdlib.h
+-
+glogwrapper.h
+/home/vlad/Programming/sbc-platform/src/EmulationServer/ccu/src/glogwrapper.h
+logger.h
+/home/vlad/Programming/sbc-platform/src/EmulationServer/ccu/src/logger.h
+

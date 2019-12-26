@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{02500904-5579-4096-872C-AD085A67588D}|Default">
+  <MonoDevelop.Ide.ItemProperties.Wigner-semicircle-distribution PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Wigner-semicircle-distribution/MainWindow.cs">
+    <Files>
+      <File FileName="Wigner-semicircle-distribution/Program.cs" Line="17" Column="1" />
+      <File FileName="Wigner-semicircle-distribution/MainWindow.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Wigner-semicircle-distribution" expanded="True">
+            <Node name="Wigner-semicircle-distribution" expanded="True">
+              <Node name="MainWindow.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

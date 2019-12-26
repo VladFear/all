@@ -1,0 +1,3 @@
+module hmi.cluster
+plugin QmlClusterPlugin
+typeinfo plugins.qmltypes

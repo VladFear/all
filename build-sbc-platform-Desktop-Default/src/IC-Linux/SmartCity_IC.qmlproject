@@ -1,0 +1,29 @@
+import QmlProject 1.1
+
+Project {
+    mainFile: "/home/vlad/Programming/sbc-platform/src/IC-Linux/ui/main.qml"
+
+    QmlFiles {
+        directory: "/home/vlad/Programming/sbc-platform/src/IC-Linux/ui"
+    }
+
+    JavaScriptFiles {
+        directory: "/home/vlad/Programming/sbc-platform/src/IC-Linux/ui"
+    }
+
+    ImageFiles {
+        directory: "/home/vlad/Programming/sbc-platform/src/IC-Linux/ui"
+    }
+
+    Files {
+        directory: "/home/vlad/Programming/sbc-platform/src/IC-Linux/ui"
+        filter: "qmldir"
+    }
+
+    Files {
+        directory: "."
+        filter: "*.ini"
+    }
+
+    importPaths: ["/home/vlad/Programming/build-sbc-platform-Desktop-Default/src/IC-Linux/imports", "/home/vlad/Programming/sbc-platform/src/IC-Linux/ui"]
+}

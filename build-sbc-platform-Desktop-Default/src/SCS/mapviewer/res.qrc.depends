@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/img">
+        <file>images/car_white.xpm</file>
+        <file>images/car_red.xpm</file>
+        <file>images/car_yellow.xpm</file>
+        <file>images/ambulance.xpm</file>
+        <file>images/onibus.xpm</file>
+        <file>images/marker.xpm</file>
+        <file>images/traffic_light.xpm</file>
+        <file>images/traffic_green.xpm</file>
+        <file>images/traffic_red.xpm</file>
+    </qresource>
+</RCC>

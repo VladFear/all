@@ -1,0 +1,333 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e2f87/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e2f87.dir/build.make CMakeFiles/cmTC_e2f87.dir/build
+make[1]: Entering directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e2f87.dir/CheckSymbolExists.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTC_e2f87.dir/CheckSymbolExists.c.o   -c /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_e2f87
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e2f87.dir/link.txt --verbose=1
+/usr/bin/gcc      -rdynamic CMakeFiles/cmTC_e2f87.dir/CheckSymbolExists.c.o  -o cmTC_e2f87 
+/usr/bin/ld: CMakeFiles/cmTC_e2f87.dir/CheckSymbolExists.c.o: in function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_e2f87.dir/build.make:87: cmTC_e2f87] Error 1
+make[1]: Leaving directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_e2f87/fast] Error 2
+
+File /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d7575/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d7575.dir/build.make CMakeFiles/cmTC_d7575.dir/build
+make[1]: Entering directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d7575.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_d7575.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d7575
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d7575.dir/link.txt --verbose=1
+/usr/bin/gcc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_d7575.dir/CheckFunctionExists.c.o  -o cmTC_d7575 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_d7575.dir/build.make:87: cmTC_d7575] Error 1
+make[1]: Leaving directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_d7575/fast] Error 2
+
+
+Determining if the include file libunwind.h exists failed with the following output:
+Change Dir: /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e139d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e139d.dir/build.make CMakeFiles/cmTC_e139d.dir/build
+make[1]: Entering directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e139d.dir/CheckIncludeFile.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTC_e139d.dir/CheckIncludeFile.c.o   -c /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: libunwind.h: No such file or directory
+ #include <libunwind.h>
+          ^~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_e139d.dir/build.make:66: CMakeFiles/cmTC_e139d.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_e139d/fast] Error 2
+
+
+Determining size of unsigned __int16 failed with the following output:
+Change Dir: /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_acf3e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_acf3e.dir/build.make CMakeFiles/cmTC_acf3e.dir/build
+make[1]: Entering directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_acf3e.dir/HAVE___UINT16.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTC_acf3e.dir/HAVE___UINT16.c.o   -c /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CheckTypeSize/HAVE___UINT16.c
+/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:23:31: error: expected ‘)’ before ‘__int16’
+ #define SIZE (sizeof(unsigned __int16))
+                     ~         ^~~~~~~
+/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:25:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^~~~
+/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:23:31: error: expected ‘)’ before ‘__int16’
+ #define SIZE (sizeof(unsigned __int16))
+                     ~         ^~~~~~~
+/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:26:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 1000)%10)),
+            ^~~~
+/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:23:31: error: expected ‘)’ before ‘__int16’
+ #define SIZE (sizeof(unsigned __int16))
+                     ~         ^~~~~~~
+/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:27:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 100)%10)),
+            ^~~~
+/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:23:31: error: expected ‘)’ before ‘__int16’
+ #define SIZE (sizeof(unsigned __int16))
+                     ~         ^~~~~~~
+/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:28:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10)%10)),
+            ^~~~
+/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:23:31: error: expected ‘)’ before ‘__int16’
+ #define SIZE (sizeof(unsigned __int16))
+                     ~         ^~~~~~~
+/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:29:12: note: in expansion of macro ‘SIZE’
+   ('0' +  (SIZE    % 10)),
+            ^~~~
+make[1]: *** [CMakeFiles/cmTC_acf3e.dir/build.make:66: CMakeFiles/cmTC_acf3e.dir/HAVE___UINT16.c.o] Error 1
+make[1]: Leaving directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_acf3e/fast] Error 2
+
+/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(unsigned __int16))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the function dladdr exists failed with the following output:
+Change Dir: /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_625e7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_625e7.dir/build.make CMakeFiles/cmTC_625e7.dir/build
+make[1]: Entering directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_625e7.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=dladdr   -o CMakeFiles/cmTC_625e7.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_625e7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_625e7.dir/link.txt --verbose=1
+/usr/bin/gcc  -DCHECK_FUNCTION_EXISTS=dladdr    -rdynamic CMakeFiles/cmTC_625e7.dir/CheckFunctionExists.c.o  -o cmTC_625e7 
+/usr/bin/ld: CMakeFiles/cmTC_625e7.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `dladdr'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_625e7.dir/build.make:87: cmTC_625e7] Error 1
+make[1]: Leaving directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_625e7/fast] Error 2
+
+
+Performing C++ SOURCE FILE Test HAVE_NO_UNNAMED_TYPE_TEMPLATE_ARGS failed with the following output:
+Change Dir: /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b33a1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b33a1.dir/build.make CMakeFiles/cmTC_b33a1.dir/build
+make[1]: Entering directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b33a1.dir/src.cxx.o
+/usr/bin/g++    -DHAVE_NO_UNNAMED_TYPE_TEMPLATE_ARGS   -Wunnamed-type-template-args -o CMakeFiles/cmTC_b33a1.dir/src.cxx.o -c /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp/src.cxx
+g++: error: unrecognized command line option '-Wunnamed-type-template-args'
+make[1]: *** [CMakeFiles/cmTC_b33a1.dir/build.make:66: CMakeFiles/cmTC_b33a1.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_b33a1/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Determining if the function get_static_proc_name exists in the unwind failed with the following output:
+Change Dir: /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_80b1e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_80b1e.dir/build.make CMakeFiles/cmTC_80b1e.dir/build
+make[1]: Entering directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_80b1e.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=get_static_proc_name   -o CMakeFiles/cmTC_80b1e.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_80b1e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_80b1e.dir/link.txt --verbose=1
+/usr/bin/gcc  -DCHECK_FUNCTION_EXISTS=get_static_proc_name    -rdynamic CMakeFiles/cmTC_80b1e.dir/CheckFunctionExists.c.o  -o cmTC_80b1e -lunwind 
+/usr/bin/ld: cannot find -lunwind
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_80b1e.dir/build.make:87: cmTC_80b1e] Error 1
+make[1]: Leaving directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_80b1e/fast] Error 2
+
+
+Determining if the function UnDecorateSymbolName exists in the dbghelp failed with the following output:
+Change Dir: /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_889c3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_889c3.dir/build.make CMakeFiles/cmTC_889c3.dir/build
+make[1]: Entering directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_889c3.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=UnDecorateSymbolName   -o CMakeFiles/cmTC_889c3.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_889c3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_889c3.dir/link.txt --verbose=1
+/usr/bin/gcc  -DCHECK_FUNCTION_EXISTS=UnDecorateSymbolName    -rdynamic CMakeFiles/cmTC_889c3.dir/CheckFunctionExists.c.o  -o cmTC_889c3 -ldbghelp 
+/usr/bin/ld: cannot find -ldbghelp
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_889c3.dir/build.make:87: cmTC_889c3] Error 1
+make[1]: Leaving directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_889c3/fast] Error 2
+
+
+Performing C SOURCE FILE Test HAVE_RWLOCK failed with the following output:
+Change Dir: /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8cdec/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8cdec.dir/build.make CMakeFiles/cmTC_8cdec.dir/build
+make[1]: Entering directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8cdec.dir/src.c.o
+/usr/bin/gcc   -DHAVE_RWLOCK   -o CMakeFiles/cmTC_8cdec.dir/src.c.o   -c /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_8cdec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8cdec.dir/link.txt --verbose=1
+/usr/bin/gcc  -DHAVE_RWLOCK    -rdynamic CMakeFiles/cmTC_8cdec.dir/src.c.o  -o cmTC_8cdec 
+/usr/bin/ld: CMakeFiles/cmTC_8cdec.dir/src.c.o: in function `main':
+src.c:(.text+0x24): undefined reference to `pthread_rwlock_init'
+/usr/bin/ld: src.c:(.text+0x30): undefined reference to `pthread_rwlock_rdlock'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_8cdec.dir/build.make:87: cmTC_8cdec] Error 1
+make[1]: Leaving directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_8cdec/fast] Error 2
+
+Source file was:
+
+#define _XOPEN_SOURCE 500
+#include <pthread.h>
+int main(void)
+{
+  pthread_rwlock_t l;
+  pthread_rwlock_init(&l, NULL);
+  pthread_rwlock_rdlock(&l);
+  return 0;
+}
+
+Performing C SOURCE FILE Test HAVE___DECLSPEC failed with the following output:
+Change Dir: /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b5d92/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b5d92.dir/build.make CMakeFiles/cmTC_b5d92.dir/build
+make[1]: Entering directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b5d92.dir/src.c.o
+/usr/bin/gcc   -DHAVE___DECLSPEC   -o CMakeFiles/cmTC_b5d92.dir/src.c.o   -c /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp/src.c
+/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp/src.c:2:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
+ __declspec(selectany) int a;
+ ^~~~~~~~~~
+/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp/src.c: In function ‘__declspec’:
+/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp/src.c:3:16: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘{’ token
+ int main(void) { return 0; }
+                ^
+/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp/src.c:2:1: warning: type of ‘selectany’ defaults to ‘int’ [-Wimplicit-int]
+ __declspec(selectany) int a;
+ ^~~~~~~~~~
+/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp/src.c:2:27: error: declaration for parameter ‘a’ but no such parameter
+ __declspec(selectany) int a;
+                           ^
+/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp/src.c:4: error: expected ‘{’ at end of input
+ 
+ 
+make[1]: *** [CMakeFiles/cmTC_b5d92.dir/build.make:66: CMakeFiles/cmTC_b5d92.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_b5d92/fast] Error 2
+
+Source file was:
+
+__declspec(selectany) int a;
+int main(void) { return 0; }
+
+Performing C++ SOURCE FILE Test STL_NO_NAMESPACE failed with the following output:
+Change Dir: /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_85ed9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_85ed9.dir/build.make CMakeFiles/cmTC_85ed9.dir/build
+make[1]: Entering directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_85ed9.dir/src.cxx.o
+/usr/bin/g++    -DSTL_NO_NAMESPACE   -o CMakeFiles/cmTC_85ed9.dir/src.cxx.o -c /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp/src.cxx
+/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp/src.cxx:3:1: error: ‘vector’ does not name a type
+ vector<int> t; int main() { }
+ ^~~~~~
+make[1]: *** [CMakeFiles/cmTC_85ed9.dir/build.make:66: CMakeFiles/cmTC_85ed9.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_85ed9/fast] Error 2
+
+Source file was:
+
+#include <vector>
+vector<int> t; int main() { }
+
+Performing C++ SOURCE FILE Test HAVE_MSVC_TLS failed with the following output:
+Change Dir: /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bbd14/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bbd14.dir/build.make CMakeFiles/cmTC_bbd14.dir/build
+make[1]: Entering directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_bbd14.dir/src.cxx.o
+/usr/bin/g++    -DHAVE_MSVC_TLS   -o CMakeFiles/cmTC_bbd14.dir/src.cxx.o -c /home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp/src.cxx
+/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp/src.cxx:2:11: error: expected constructor, destructor, or type conversion before ‘(’ token
+ __declspec(thread) int tls;
+           ^
+make[1]: *** [CMakeFiles/cmTC_bbd14.dir/build.make:66: CMakeFiles/cmTC_bbd14.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/vlad/Programming/build-sbc-platform-Desktop-Default/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_bbd14/fast] Error 2
+
+Source file was:
+
+__declspec(thread) int tls;
+int main() { }
+

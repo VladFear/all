@@ -1,0 +1,14 @@
+AutoPilotDistanceWidget 1.0 AutoPilotDistanceWidget.qml
+SpeedometerWidget 1.0 SpeedometerWidget.qml
+NavigationTopBar 1.0 NavigationTopBar.qml
+SidePanelWidget 1.0 SidePanelWidget.qml
+TripStatusBar 1.0 TripStatusBar.qml
+FuelIndicator 1.0 FuelIndicator.qml
+OilIndicator 1.0 OilIndicator.qml
+StreamingContextWidget 1.0 StreamingContextWidget.qml
+ClusterWidget 1.0 ClusterWidget.qml
+Tachometer 1.0 Tachometer.qml
+Speedometer 1.0 Speedometer.qml
+TransmissionWidget 1.0 TransmissionWidget.qml
+DashboardSignals 1.0 DashboardSignals.qml
+TurnSignalWidget.qml 1.0 TurnSignalWidget.qml

@@ -1,0 +1,955 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="SmartCity_IC"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\lib\;CMake Files\lib\GeographicLib\;CMake Files\lib\GeographicLib\include\;CMake Files\lib\GeographicLib\include\GeographicLib\;CMake Files\lib\GeographicLib\tools\;CMake Files\lib\GeographicLib\src\;CMake Files\lib\GeographicLib\man\;CMake Files\lib\GeographicLib\doc\;CMake Files\lib\GeographicLib\js\;CMake Files\lib\GeographicLib\matlab\;CMake Files\lib\GeographicLib\python\;CMake Files\lib\GeographicLib\python\geographiclib\;CMake Files\lib\GeographicLib\cmake\;CMake Files\lib\libjsonparse\;CMake Files\lib\glog\;CMake Files\lib\glog\cmake\;CMake Files\lib\glog\src\;CMake Files\lib\glog\src\glog\;CMake Files\lib\gtest\;CMake Files\lib\gtest\googlemock\;CMake Files\lib\gtest\googlemock\cmake\;CMake Files\lib\gtest\googletest\;CMake Files\lib\gtest\googletest\cmake\;CMake Files\lib\restclient-cpp\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\gflags\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Qml\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Network\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Quick\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\;CMake Files\..\build-sbc-platform-Desktop-Default\;CMake Files\..\build-sbc-platform-Desktop-Default\restclient\;CMake Files\..\build-sbc-platform-Desktop-Default\src\;CMake Files\..\build-sbc-platform-Desktop-Default\src\IC-Linux\;CMake Files\src\;CMake Files\src\V2X\;CMake Files\src\EmulationServer\;CMake Files\src\IC-Lib\;CMake Files\src\IC-Linux\;CMake Files\src\IC-Linux\cluster_base\;CMake Files\src\IC-Linux\cluster_base\cmake\;CMake Files\src\IC-Linux\cluster_base\src\;CMake Files\src\IC-Linux\cluster_base\src\application\;CMake Files\src\IC-Linux\cluster_base\src\runtime\;CMake Files\src\IC-Linux\qmlplugins\;CMake Files\src\SCS\;CMake Files\src\SCS\mapviewer\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/vlad/Programming/build-sbc-platform-Desktop-Default/src/IC-Linux"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/vlad/Programming/build-sbc-platform-Desktop-Default/src/IC-Linux/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/vlad/Programming/build-sbc-platform-Desktop-Default/src/IC-Linux/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/vlad/Programming/build-sbc-platform-Desktop-Default/src/IC-Linux/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/vlad/Programming/build-sbc-platform-Desktop-Default/src/IC-Linux/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="QML_FILES">
+				<Option working_dir="/home/vlad/Programming/build-sbc-platform-Desktop-Default/src/IC-Linux"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/vlad/Programming/build-sbc-platform-Desktop-Default/src/IC-Linux/Makefile&quot;  VERBOSE=1 QML_FILES"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/vlad/Programming/build-sbc-platform-Desktop-Default/src/IC-Linux/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/vlad/Programming/build-sbc-platform-Desktop-Default/src/IC-Linux/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/vlad/Programming/build-sbc-platform-Desktop-Default/src/IC-Linux/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="QmlApplicationSettings">
+				<Option output="/home/vlad/Programming/build-sbc-platform-Desktop-Default/src/IC-Linux/lib/libQmlApplicationSettings.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vlad/Programming/build-sbc-platform-Desktop-Default/src/IC-Linux/cluster_base/src/runtime"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQML_IN_RESOURCE"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_NO_DEBUG"/>
+					<Add option="-DGOOGLE_GLOG_DLL_DECL="/>
+					<Add option="-DGOOGLE_GLOG_DLL_DECL_FOR_UNITTESTS="/>
+					<Add option="-DGFLAGS_IS_A_DLL=0"/>
+					<Add option="-DQT_QML_LIB"/>
+					<Add option="-DQT_NETWORK_LIB"/>
+					<Add option="-DQT_QUICK_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add directory="/home/vlad/Programming/build-sbc-platform-Desktop-Default/src/IC-Linux/cluster_base/src/runtime"/>
+					<Add directory="/home/vlad/Programming/sbc-platform/src/IC-Linux/cluster_base/src/runtime"/>
+					<Add directory="/home/vlad/Programming/sbc-platform/src/IC-Linux/qmlplugins/src"/>
+					<Add directory="/home/vlad/Programming/sbc-platform/src/IC-Linux/qmlplugins"/>
+					<Add directory="/home/vlad/Programming/sbc-platform/src/IC-Linux/qmlplugins/src/utils"/>
+					<Add directory="/home/vlad/Programming/sbc-platform/src/IC-Linux/cluster_base/src"/>
+					<Add directory="/home/vlad/Programming/sbc-platform/src/IC-Lib/libcluster"/>
+					<Add directory="/home/vlad/Programming/build-sbc-platform-Desktop-Default/glog"/>
+					<Add directory="/home/vlad/Programming/sbc-platform/lib/glog/src"/>
+					<Add directory="/home/vlad/Programming/sbc-platform/src/IC-Linux/qmlplugins/src/cluster"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtQml"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtNetwork"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtQuick"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/vlad/Programming/build-sbc-platform-Desktop-Default/src/IC-Linux/cluster_base/src/runtime/Makefile&quot;  VERBOSE=1 QmlApplicationSettings"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/vlad/Programming/build-sbc-platform-Desktop-Default/src/IC-Linux/cluster_base/src/runtime/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/vlad/Programming/build-sbc-platform-Desktop-Default/src/IC-Linux/cluster_base/src/runtime/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/vlad/Programming/build-sbc-platform-Desktop-Default/src/IC-Linux/cluster_base/src/runtime/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="QmlApplicationSettings/fast">
+				<Option output="/home/vlad/Programming/build-sbc-platform-Desktop-Default/src/IC-Linux/lib/libQmlApplicationSettings.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vlad/Programming/build-sbc-platform-Desktop-Default/src/IC-Linux/cluster_base/src/runtime"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQML_IN_RESOURCE"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_NO_DEBUG"/>
+					<Add option="-DGOOGLE_GLOG_DLL_DECL="/>
+					<Add option="-DGOOGLE_GLOG_DLL_DECL_FOR_UNITTESTS="/>
+					<Add option="-DGFLAGS_IS_A_DLL=0"/>
+					<Add option="-DQT_QML_LIB"/>
+					<Add option="-DQT_NETWORK_LIB"/>
+					<Add option="-DQT_QUICK_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add directory="/home/vlad/Programming/build-sbc-platform-Desktop-Default/src/IC-Linux/cluster_base/src/runtime"/>
+					<Add directory="/home/vlad/Programming/sbc-platform/src/IC-Linux/cluster_base/src/runtime"/>
+					<Add directory="/home/vlad/Programming/sbc-platform/src/IC-Linux/qmlplugins/src"/>
+					<Add directory="/home/vlad/Programming/sbc-platform/src/IC-Linux/qmlplugins"/>
+					<Add directory="/home/vlad/Programming/sbc-platform/src/IC-Linux/qmlplugins/src/utils"/>
+					<Add directory="/home/vlad/Programming/sbc-platform/src/IC-Linux/cluster_base/src"/>
+					<Add directory="/home/vlad/Programming/sbc-platform/src/IC-Lib/libcluster"/>
+					<Add directory="/home/vlad/Programming/build-sbc-platform-Desktop-Default/glog"/>
+					<Add directory="/home/vlad/Programming/sbc-platform/lib/glog/src"/>
+					<Add directory="/home/vlad/Programming/sbc-platform/src/IC-Linux/qmlplugins/src/cluster"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtQml"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtNetwork"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtQuick"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/vlad/Programming/build-sbc-platform-Desktop-Default/src/IC-Linux/cluster_base/src/runtime/Makefile&quot;  VERBOSE=1 QmlApplicationSettings/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/vlad/Programming/build-sbc-platform-Desktop-Default/src/IC-Linux/cluster_base/src/runtime/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/vlad/Programming/build-sbc-platform-Desktop-Default/src/IC-Linux/cluster_base/src/runtime/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/vlad/Programming/build-sbc-platform-Desktop-Default/src/IC-Linux/cluster_base/src/runtime/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SmartCity_IC">
+				<Option output="/home/vlad/Programming/build-sbc-platform-Desktop-Default/src/IC-Linux/SmartCity_IC" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vlad/Programming/build-sbc-platform-Desktop-Default/src/IC-Linux"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQML_IN_RESOURCE"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_NO_DEBUG"/>
+					<Add option="-DQT_QML_LIB"/>
+					<Add option="-DQT_NETWORK_LIB"/>
+					<Add option="-DQT_QUICK_LIB"/>
+					<Add option="-DGOOGLE_GLOG_DLL_DECL="/>
+					<Add option="-DGOOGLE_GLOG_DLL_DECL_FOR_UNITTESTS="/>
+					<Add option="-DGFLAGS_IS_A_DLL=0"/>
+					<Add directory="/home/vlad/Programming/build-sbc-platform-Desktop-Default/src/IC-Linux/cluster_base/src/application"/>
+					<Add directory="/home/vlad/Programming/sbc-platform/src/IC-Linux/cluster_base/src/application"/>
+					<Add directory="/home/vlad/Programming/sbc-platform/src/IC-Lib/libcluster"/>
+					<Add directory="/home/vlad/Programming/sbc-platform/src/IC-Linux/qmlplugins/src"/>
+					<Add directory="/home/vlad/Programming/sbc-platform/src/IC-Linux/qmlplugins"/>
+					<Add directory="/home/vlad/Programming/sbc-platform/src/IC-Linux/qmlplugins/src/utils"/>
+					<Add directory="/home/vlad/Programming/sbc-platform/src/IC-Linux/cluster_base/src"/>
+					<Add directory="/home/vlad/Programming/build-sbc-platform-Desktop-Default/glog"/>
+					<Add directory="/home/vlad/Programming/sbc-platform/lib/glog/src"/>
+					<Add directory="/home/vlad/Programming/sbc-platform/src/IC-Linux/qmlplugins/src/cluster"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtQml"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtNetwork"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtQuick"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/vlad/Programming/build-sbc-platform-Desktop-Default/src/IC-Linux/cluster_base/src/application/Makefile&quot;  VERBOSE=1 SmartCity_IC"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/vlad/Programming/build-sbc-platform-Desktop-Default/src/IC-Linux/cluster_base/src/application/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/vlad/Programming/build-sbc-platform-Desktop-Default/src/IC-Linux/cluster_base/src/application/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/vlad/Programming/build-sbc-platform-Desktop-Default/src/IC-Linux/cluster_base/src/application/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SmartCity_IC/fast">
+				<Option output="/home/vlad/Programming/build-sbc-platform-Desktop-Default/src/IC-Linux/SmartCity_IC" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vlad/Programming/build-sbc-platform-Desktop-Default/src/IC-Linux"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQML_IN_RESOURCE"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_NO_DEBUG"/>
+					<Add option="-DQT_QML_LIB"/>
+					<Add option="-DQT_NETWORK_LIB"/>
+					<Add option="-DQT_QUICK_LIB"/>
+					<Add option="-DGOOGLE_GLOG_DLL_DECL="/>
+					<Add option="-DGOOGLE_GLOG_DLL_DECL_FOR_UNITTESTS="/>
+					<Add option="-DGFLAGS_IS_A_DLL=0"/>
+					<Add directory="/home/vlad/Programming/build-sbc-platform-Desktop-Default/src/IC-Linux/cluster_base/src/application"/>
+					<Add directory="/home/vlad/Programming/sbc-platform/src/IC-Linux/cluster_base/src/application"/>
+					<Add directory="/home/vlad/Programming/sbc-platform/src/IC-Lib/libcluster"/>
+					<Add directory="/home/vlad/Programming/sbc-platform/src/IC-Linux/qmlplugins/src"/>
+					<Add directory="/home/vlad/Programming/sbc-platform/src/IC-Linux/qmlplugins"/>
+					<Add directory="/home/vlad/Programming/sbc-platform/src/IC-Linux/qmlplugins/src/utils"/>
+					<Add directory="/home/vlad/Programming/sbc-platform/src/IC-Linux/cluster_base/src"/>
+					<Add directory="/home/vlad/Programming/build-sbc-platform-Desktop-Default/glog"/>
+					<Add directory="/home/vlad/Programming/sbc-platform/lib/glog/src"/>
+					<Add directory="/home/vlad/Programming/sbc-platform/src/IC-Linux/qmlplugins/src/cluster"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtQml"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtNetwork"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtQuick"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/vlad/Programming/build-sbc-platform-Desktop-Default/src/IC-Linux/cluster_base/src/application/Makefile&quot;  VERBOSE=1 SmartCity_IC/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/vlad/Programming/build-sbc-platform-Desktop-Default/src/IC-Linux/cluster_base/src/application/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/vlad/Programming/build-sbc-platform-Desktop-Default/src/IC-Linux/cluster_base/src/application/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/vlad/Programming/build-sbc-platform-Desktop-Default/src/IC-Linux/cluster_base/src/application/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="QmlUtilsPlugin">
+				<Option output="/home/vlad/Programming/build-sbc-platform-Desktop-Default/src/IC-Linux/imports/hmi/utils/libQmlUtilsPlugin.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vlad/Programming/build-sbc-platform-Desktop-Default/src/IC-Linux/qmlplugins"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DPLUGIN_MINOR_VERSION=0"/>
+					<Add option="-DPLUGIN_MAJOR_VERSION=1"/>
+					<Add option="-DHMI_UTILS_PLUGIN"/>
+					<Add option="-DQML_IN_RESOURCE"/>
+					<Add option="-DGOOGLE_GLOG_DLL_DECL="/>
+					<Add option="-DGOOGLE_GLOG_DLL_DECL_FOR_UNITTESTS="/>
+					<Add option="-DGFLAGS_IS_A_DLL=0"/>
+					<Add option="-DQT_QML_LIB"/>
+					<Add option="-DQT_NETWORK_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_NO_DEBUG"/>
+					<Add option="-DQT_QUICK_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add directory="/home/vlad/Programming/build-sbc-platform-Desktop-Default/src/IC-Linux/qmlplugins"/>
+					<Add directory="/home/vlad/Programming/sbc-platform/src/IC-Linux/qmlplugins"/>
+					<Add directory="/home/vlad/Programming/sbc-platform/src/IC-Linux/qmlplugins/src"/>
+					<Add directory="/home/vlad/Programming/sbc-platform/src/IC-Linux/qmlplugins/src/utils"/>
+					<Add directory="/home/vlad/Programming/sbc-platform/src/IC-Linux/cluster_base/src"/>
+					<Add directory="/home/vlad/Programming/sbc-platform/src/IC-Lib/libcluster"/>
+					<Add directory="/home/vlad/Programming/build-sbc-platform-Desktop-Default/glog"/>
+					<Add directory="/home/vlad/Programming/sbc-platform/lib/glog/src"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtQml"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtNetwork"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtQuick"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/vlad/Programming/build-sbc-platform-Desktop-Default/src/IC-Linux/qmlplugins/Makefile&quot;  VERBOSE=1 QmlUtilsPlugin"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/vlad/Programming/build-sbc-platform-Desktop-Default/src/IC-Linux/qmlplugins/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/vlad/Programming/build-sbc-platform-Desktop-Default/src/IC-Linux/qmlplugins/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/vlad/Programming/build-sbc-platform-Desktop-Default/src/IC-Linux/qmlplugins/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="QmlUtilsPlugin/fast">
+				<Option output="/home/vlad/Programming/build-sbc-platform-Desktop-Default/src/IC-Linux/imports/hmi/utils/libQmlUtilsPlugin.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vlad/Programming/build-sbc-platform-Desktop-Default/src/IC-Linux/qmlplugins"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DPLUGIN_MINOR_VERSION=0"/>
+					<Add option="-DPLUGIN_MAJOR_VERSION=1"/>
+					<Add option="-DHMI_UTILS_PLUGIN"/>
+					<Add option="-DQML_IN_RESOURCE"/>
+					<Add option="-DGOOGLE_GLOG_DLL_DECL="/>
+					<Add option="-DGOOGLE_GLOG_DLL_DECL_FOR_UNITTESTS="/>
+					<Add option="-DGFLAGS_IS_A_DLL=0"/>
+					<Add option="-DQT_QML_LIB"/>
+					<Add option="-DQT_NETWORK_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_NO_DEBUG"/>
+					<Add option="-DQT_QUICK_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add directory="/home/vlad/Programming/build-sbc-platform-Desktop-Default/src/IC-Linux/qmlplugins"/>
+					<Add directory="/home/vlad/Programming/sbc-platform/src/IC-Linux/qmlplugins"/>
+					<Add directory="/home/vlad/Programming/sbc-platform/src/IC-Linux/qmlplugins/src"/>
+					<Add directory="/home/vlad/Programming/sbc-platform/src/IC-Linux/qmlplugins/src/utils"/>
+					<Add directory="/home/vlad/Programming/sbc-platform/src/IC-Linux/cluster_base/src"/>
+					<Add directory="/home/vlad/Programming/sbc-platform/src/IC-Lib/libcluster"/>
+					<Add directory="/home/vlad/Programming/build-sbc-platform-Desktop-Default/glog"/>
+					<Add directory="/home/vlad/Programming/sbc-platform/lib/glog/src"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtQml"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtNetwork"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtQuick"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/vlad/Programming/build-sbc-platform-Desktop-Default/src/IC-Linux/qmlplugins/Makefile&quot;  VERBOSE=1 QmlUtilsPlugin/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/vlad/Programming/build-sbc-platform-Desktop-Default/src/IC-Linux/qmlplugins/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/vlad/Programming/build-sbc-platform-Desktop-Default/src/IC-Linux/qmlplugins/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/vlad/Programming/build-sbc-platform-Desktop-Default/src/IC-Linux/qmlplugins/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="QmlClusterPlugin">
+				<Option output="/home/vlad/Programming/build-sbc-platform-Desktop-Default/src/IC-Linux/imports/hmi/cluster/libQmlClusterPlugin.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vlad/Programming/build-sbc-platform-Desktop-Default/src/IC-Linux/qmlplugins"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DPLUGIN_MINOR_VERSION=0"/>
+					<Add option="-DPLUGIN_MAJOR_VERSION=1"/>
+					<Add option="-DHMI_CLUSTER_PLUGIN"/>
+					<Add option="-DQML_IN_RESOURCE"/>
+					<Add option="-DGOOGLE_GLOG_DLL_DECL="/>
+					<Add option="-DGOOGLE_GLOG_DLL_DECL_FOR_UNITTESTS="/>
+					<Add option="-DGFLAGS_IS_A_DLL=0"/>
+					<Add option="-DQT_QML_LIB"/>
+					<Add option="-DQT_NETWORK_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_NO_DEBUG"/>
+					<Add option="-DQT_QUICK_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add directory="/home/vlad/Programming/build-sbc-platform-Desktop-Default/src/IC-Linux/qmlplugins"/>
+					<Add directory="/home/vlad/Programming/sbc-platform/src/IC-Linux/qmlplugins"/>
+					<Add directory="/home/vlad/Programming/sbc-platform/src/IC-Linux/qmlplugins/src"/>
+					<Add directory="/home/vlad/Programming/sbc-platform/src/IC-Linux/qmlplugins/src/cluster"/>
+					<Add directory="/home/vlad/Programming/sbc-platform/src/IC-Linux/cluster_base/src"/>
+					<Add directory="/home/vlad/Programming/sbc-platform/src/IC-Lib/libcluster"/>
+					<Add directory="/home/vlad/Programming/build-sbc-platform-Desktop-Default/glog"/>
+					<Add directory="/home/vlad/Programming/sbc-platform/lib/glog/src"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtQml"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtNetwork"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtQuick"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/vlad/Programming/build-sbc-platform-Desktop-Default/src/IC-Linux/qmlplugins/Makefile&quot;  VERBOSE=1 QmlClusterPlugin"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/vlad/Programming/build-sbc-platform-Desktop-Default/src/IC-Linux/qmlplugins/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/vlad/Programming/build-sbc-platform-Desktop-Default/src/IC-Linux/qmlplugins/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/vlad/Programming/build-sbc-platform-Desktop-Default/src/IC-Linux/qmlplugins/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="QmlClusterPlugin/fast">
+				<Option output="/home/vlad/Programming/build-sbc-platform-Desktop-Default/src/IC-Linux/imports/hmi/cluster/libQmlClusterPlugin.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vlad/Programming/build-sbc-platform-Desktop-Default/src/IC-Linux/qmlplugins"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DPLUGIN_MINOR_VERSION=0"/>
+					<Add option="-DPLUGIN_MAJOR_VERSION=1"/>
+					<Add option="-DHMI_CLUSTER_PLUGIN"/>
+					<Add option="-DQML_IN_RESOURCE"/>
+					<Add option="-DGOOGLE_GLOG_DLL_DECL="/>
+					<Add option="-DGOOGLE_GLOG_DLL_DECL_FOR_UNITTESTS="/>
+					<Add option="-DGFLAGS_IS_A_DLL=0"/>
+					<Add option="-DQT_QML_LIB"/>
+					<Add option="-DQT_NETWORK_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_NO_DEBUG"/>
+					<Add option="-DQT_QUICK_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add directory="/home/vlad/Programming/build-sbc-platform-Desktop-Default/src/IC-Linux/qmlplugins"/>
+					<Add directory="/home/vlad/Programming/sbc-platform/src/IC-Linux/qmlplugins"/>
+					<Add directory="/home/vlad/Programming/sbc-platform/src/IC-Linux/qmlplugins/src"/>
+					<Add directory="/home/vlad/Programming/sbc-platform/src/IC-Linux/qmlplugins/src/cluster"/>
+					<Add directory="/home/vlad/Programming/sbc-platform/src/IC-Linux/cluster_base/src"/>
+					<Add directory="/home/vlad/Programming/sbc-platform/src/IC-Lib/libcluster"/>
+					<Add directory="/home/vlad/Programming/build-sbc-platform-Desktop-Default/glog"/>
+					<Add directory="/home/vlad/Programming/sbc-platform/lib/glog/src"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtQml"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtNetwork"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtQuick"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/vlad/Programming/build-sbc-platform-Desktop-Default/src/IC-Linux/qmlplugins/Makefile&quot;  VERBOSE=1 QmlClusterPlugin/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/vlad/Programming/build-sbc-platform-Desktop-Default/src/IC-Linux/qmlplugins/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/vlad/Programming/build-sbc-platform-Desktop-Default/src/IC-Linux/qmlplugins/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/vlad/Programming/build-sbc-platform-Desktop-Default/src/IC-Linux/qmlplugins/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/vlad/Programming/build-sbc-platform-Desktop-Default/src/IC-Linux/SmartCity_IC.qrc">
+			<Option target="SmartCity_IC"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/build-sbc-platform-Desktop-Default/src/IC-Linux/cluster_base/src/application/qrc_SmartCity_IC.cpp">
+			<Option target="SmartCity_IC"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/build-sbc-platform-Desktop-Default/src/IC-Linux/qmlplugins/src/cluster/moc_SpeedUnits.cpp">
+			<Option target="QmlClusterPlugin"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/build-sbc-platform-Desktop-Default/src/IC-Linux/qmlplugins/src/cluster/moc_SpeedUnits.cpp.rule">
+			<Option target="QmlClusterPlugin"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/build-sbc-platform-Desktop-Default/src/IC-Linux/qmlplugins/src/cluster/moc_Transmission.cpp">
+			<Option target="QmlClusterPlugin"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/build-sbc-platform-Desktop-Default/src/IC-Linux/qmlplugins/src/cluster/moc_Transmission.cpp.rule">
+			<Option target="QmlClusterPlugin"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/build-sbc-platform-Desktop-Default/src/IC-Linux/qmlplugins/src/cluster/moc_qmlclustercommunicator.cpp">
+			<Option target="QmlClusterPlugin"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/build-sbc-platform-Desktop-Default/src/IC-Linux/qmlplugins/src/cluster/moc_qmlclustercommunicator.cpp.rule">
+			<Option target="QmlClusterPlugin"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/build-sbc-platform-Desktop-Default/src/IC-Linux/qmlplugins/src/cluster/moc_qmlclusterplugin.cpp">
+			<Option target="QmlClusterPlugin"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/build-sbc-platform-Desktop-Default/src/IC-Linux/qmlplugins/src/cluster/moc_qmlclusterplugin.cpp.rule">
+			<Option target="QmlClusterPlugin"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/build-sbc-platform-Desktop-Default/src/IC-Linux/qmlplugins/src/cluster/moc_qmlparkingpoint.cpp">
+			<Option target="QmlClusterPlugin"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/build-sbc-platform-Desktop-Default/src/IC-Linux/qmlplugins/src/cluster/moc_qmlparkingpoint.cpp.rule">
+			<Option target="QmlClusterPlugin"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/build-sbc-platform-Desktop-Default/src/IC-Linux/qmlplugins/src/cluster/moc_qmlvehicleinformationclient.cpp">
+			<Option target="QmlClusterPlugin"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/build-sbc-platform-Desktop-Default/src/IC-Linux/qmlplugins/src/cluster/moc_qmlvehicleinformationclient.cpp.rule">
+			<Option target="QmlClusterPlugin"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/build-sbc-platform-Desktop-Default/src/IC-Linux/qmlplugins/src/cluster/moc_qmlwheel.cpp">
+			<Option target="QmlClusterPlugin"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/build-sbc-platform-Desktop-Default/src/IC-Linux/qmlplugins/src/cluster/moc_qmlwheel.cpp.rule">
+			<Option target="QmlClusterPlugin"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/build-sbc-platform-Desktop-Default/src/IC-Linux/qmlplugins/src/cluster/moc_warningstatus.cpp">
+			<Option target="QmlClusterPlugin"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/build-sbc-platform-Desktop-Default/src/IC-Linux/qmlplugins/src/cluster/moc_warningstatus.cpp.rule">
+			<Option target="QmlClusterPlugin"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/build-sbc-platform-Desktop-Default/src/IC-Linux/qmlplugins/src/utils/moc_qmlruntimeoptions.cpp">
+			<Option target="QmlUtilsPlugin"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/build-sbc-platform-Desktop-Default/src/IC-Linux/qmlplugins/src/utils/moc_qmlruntimeoptions.cpp.rule">
+			<Option target="QmlUtilsPlugin"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/build-sbc-platform-Desktop-Default/src/IC-Linux/qmlplugins/src/utils/moc_qmlutilsplugin.cpp">
+			<Option target="QmlUtilsPlugin"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/build-sbc-platform-Desktop-Default/src/IC-Linux/qmlplugins/src/utils/moc_qmlutilsplugin.cpp.rule">
+			<Option target="QmlUtilsPlugin"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/build-sbc-platform-Desktop-Default/src/IC-Linux/qmlplugins/src/utils/moc_qmlwindow.cpp">
+			<Option target="QmlUtilsPlugin"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/build-sbc-platform-Desktop-Default/src/IC-Linux/qmlplugins/src/utils/moc_qmlwindow.cpp.rule">
+			<Option target="QmlUtilsPlugin"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/src/IC-Linux/NvidiaCrossCompile.cmake">
+			<Option target="QML_FILES"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/src/IC-Linux/cluster_base/cmake/Qt5Base.cmake">
+			<Option target="QML_FILES"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/src/IC-Linux/cluster_base/cmake/WrapQt5.cmake">
+			<Option target="QML_FILES"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/src/IC-Linux/cluster_base/src/application/main.cpp">
+			<Option target="SmartCity_IC"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/src/IC-Linux/cluster_base/src/runtime/qmlapplicationsettings.cpp">
+			<Option target="QmlApplicationSettings"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/src/IC-Linux/cluster_base/src/runtime/qmlapplicationsettings.h">
+			<Option target="QmlApplicationSettings"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/src/IC-Linux/cluster_base/src/runtime/qmlclusterconfiguration.cpp">
+			<Option target="QmlApplicationSettings"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/src/IC-Linux/cluster_base/src/runtime/qmlclusterconfiguration.h">
+			<Option target="QmlApplicationSettings"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/src/IC-Linux/qmlplugins/src/cluster/SpeedUnits.cpp">
+			<Option target="QmlClusterPlugin"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/src/IC-Linux/qmlplugins/src/cluster/SpeedUnits.h">
+			<Option target="QmlClusterPlugin"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/src/IC-Linux/qmlplugins/src/cluster/Transmission.cpp">
+			<Option target="QmlClusterPlugin"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/src/IC-Linux/qmlplugins/src/cluster/Transmission.h">
+			<Option target="QmlClusterPlugin"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/src/IC-Linux/qmlplugins/src/cluster/qmlclustercommunicator.cpp">
+			<Option target="QmlClusterPlugin"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/src/IC-Linux/qmlplugins/src/cluster/qmlclustercommunicator.h">
+			<Option target="QmlClusterPlugin"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/src/IC-Linux/qmlplugins/src/cluster/qmlclusterplugin.cpp">
+			<Option target="QmlClusterPlugin"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/src/IC-Linux/qmlplugins/src/cluster/qmlclusterplugin.h">
+			<Option target="QmlClusterPlugin"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/src/IC-Linux/qmlplugins/src/cluster/qmlparkingpoint.cpp">
+			<Option target="QmlClusterPlugin"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/src/IC-Linux/qmlplugins/src/cluster/qmlparkingpoint.h">
+			<Option target="QmlClusterPlugin"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/src/IC-Linux/qmlplugins/src/cluster/qmlvehicleinformationclient.cpp">
+			<Option target="QmlClusterPlugin"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/src/IC-Linux/qmlplugins/src/cluster/qmlvehicleinformationclient.h">
+			<Option target="QmlClusterPlugin"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/src/IC-Linux/qmlplugins/src/cluster/qmlwheel.cpp">
+			<Option target="QmlClusterPlugin"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/src/IC-Linux/qmlplugins/src/cluster/qmlwheel.h">
+			<Option target="QmlClusterPlugin"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/src/IC-Linux/qmlplugins/src/cluster/warningstatus.cpp">
+			<Option target="QmlClusterPlugin"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/src/IC-Linux/qmlplugins/src/cluster/warningstatus.h">
+			<Option target="QmlClusterPlugin"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/src/IC-Linux/qmlplugins/src/utils/qmlruntimeoptions.cpp">
+			<Option target="QmlUtilsPlugin"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/src/IC-Linux/qmlplugins/src/utils/qmlruntimeoptions.h">
+			<Option target="QmlUtilsPlugin"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/src/IC-Linux/qmlplugins/src/utils/qmlutilsplugin.cpp">
+			<Option target="QmlUtilsPlugin"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/src/IC-Linux/qmlplugins/src/utils/qmlutilsplugin.h">
+			<Option target="QmlUtilsPlugin"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/src/IC-Linux/qmlplugins/src/utils/qmlwindow.cpp">
+			<Option target="QmlUtilsPlugin"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/src/IC-Linux/qmlplugins/src/utils/qmlwindow.h">
+			<Option target="QmlUtilsPlugin"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/src/IC-Linux/ui/Display.qml">
+			<Option target="QML_FILES"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/src/IC-Linux/ui/framework/ClusterGauge.js">
+			<Option target="QML_FILES"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/src/IC-Linux/ui/framework/ClusterGaugeInterface.qml">
+			<Option target="QML_FILES"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/src/IC-Linux/ui/framework/InfoLabel.qml">
+			<Option target="QML_FILES"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/src/IC-Linux/ui/framework/InfoLabelBackground.qml">
+			<Option target="QML_FILES"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/src/IC-Linux/ui/framework/KeyboardHandler.qml">
+			<Option target="QML_FILES"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/src/IC-Linux/ui/framework/MapStreamingContext.qml">
+			<Option target="QML_FILES"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/src/IC-Linux/ui/framework/MapStreamingContextMock.qml">
+			<Option target="QML_FILES"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/src/IC-Linux/ui/framework/ParkingPointWidget.qml">
+			<Option target="QML_FILES"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/src/IC-Linux/ui/framework/PrototypeExtensions.js">
+			<Option target="QML_FILES"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/src/IC-Linux/ui/framework/StatusLabel.qml">
+			<Option target="QML_FILES"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/src/IC-Linux/ui/framework/qmldir">
+			<Option target="QML_FILES"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/src/IC-Linux/ui/main.qml">
+			<Option target="QML_FILES"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/src/IC-Linux/ui/widgets/AutoPilotDistanceWidget.qml">
+			<Option target="QML_FILES"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/src/IC-Linux/ui/widgets/ClusterWidget.qml">
+			<Option target="QML_FILES"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/src/IC-Linux/ui/widgets/DashboardSignals.qml">
+			<Option target="QML_FILES"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/src/IC-Linux/ui/widgets/FuelIndicator.qml">
+			<Option target="QML_FILES"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/src/IC-Linux/ui/widgets/NavigationTopBar.qml">
+			<Option target="QML_FILES"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/src/IC-Linux/ui/widgets/OilIndicator.qml">
+			<Option target="QML_FILES"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/src/IC-Linux/ui/widgets/SidePanelWidget.qml">
+			<Option target="QML_FILES"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/src/IC-Linux/ui/widgets/Speedometer.qml">
+			<Option target="QML_FILES"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/src/IC-Linux/ui/widgets/SpeedometerWidget.qml">
+			<Option target="QML_FILES"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/src/IC-Linux/ui/widgets/StreamingContextWidget.qml">
+			<Option target="QML_FILES"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/src/IC-Linux/ui/widgets/Tachometer.qml">
+			<Option target="QML_FILES"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/src/IC-Linux/ui/widgets/TransmissionWidget.qml">
+			<Option target="QML_FILES"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/src/IC-Linux/ui/widgets/TripStatusBar.qml">
+			<Option target="QML_FILES"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/src/IC-Linux/ui/widgets/TurnSignalWidget.qml">
+			<Option target="QML_FILES"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/src/IC-Linux/ui/widgets/qmldir">
+			<Option target="QML_FILES"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/lib/GeographicLib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\GeographicLib\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/lib/GeographicLib/include/GeographicLib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\GeographicLib\include\GeographicLib\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/lib/GeographicLib/include/GeographicLib/Config.h.in">
+			<Option virtualFolder="CMake Files\lib\GeographicLib\include\GeographicLib\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/lib/GeographicLib/tools/tests.cmake">
+			<Option virtualFolder="CMake Files\lib\GeographicLib\tools\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/lib/GeographicLib/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\GeographicLib\src\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/lib/GeographicLib/man/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\GeographicLib\man\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/lib/GeographicLib/man/script.8.in">
+			<Option virtualFolder="CMake Files\lib\GeographicLib\man\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/lib/GeographicLib/doc/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\GeographicLib\doc\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/lib/GeographicLib/doc/index.html.in">
+			<Option virtualFolder="CMake Files\lib\GeographicLib\doc\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/lib/GeographicLib/doc/utilities.html.in">
+			<Option virtualFolder="CMake Files\lib\GeographicLib\doc\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/lib/GeographicLib/js/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\GeographicLib\js\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/lib/GeographicLib/matlab/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\GeographicLib\matlab\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/lib/GeographicLib/python/geographiclib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\GeographicLib\python\geographiclib\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/lib/GeographicLib/cmake/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\GeographicLib\cmake\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/lib/GeographicLib/cmake/project-config-version.cmake.in">
+			<Option virtualFolder="CMake Files\lib\GeographicLib\cmake\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/lib/GeographicLib/cmake/project-config.cmake.in">
+			<Option virtualFolder="CMake Files\lib\GeographicLib\cmake\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/lib/GeographicLib/cmake/project.pc.in">
+			<Option virtualFolder="CMake Files\lib\GeographicLib\cmake\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/lib/libjsonparse/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\libjsonparse\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/lib/glog/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\glog\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/lib/glog/glog-config.cmake.in">
+			<Option virtualFolder="CMake Files\lib\glog\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/lib/glog/cmake/DetermineGflagsNamespace.cmake">
+			<Option virtualFolder="CMake Files\lib\glog\cmake\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/lib/glog/src/config.h.cmake.in">
+			<Option virtualFolder="CMake Files\lib\glog\src\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/lib/glog/src/glog/logging.h.in">
+			<Option virtualFolder="CMake Files\lib\glog\src\glog\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/lib/glog/src/glog/raw_logging.h.in">
+			<Option virtualFolder="CMake Files\lib\glog\src\glog\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/lib/glog/src/glog/stl_logging.h.in">
+			<Option virtualFolder="CMake Files\lib\glog\src\glog\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/lib/glog/src/glog/vlog_is_on.h.in">
+			<Option virtualFolder="CMake Files\lib\glog\src\glog\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/lib/gtest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\gtest\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/lib/gtest/googlemock/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\gtest\googlemock\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/lib/gtest/googlemock/cmake/gmock.pc.in">
+			<Option virtualFolder="CMake Files\lib\gtest\googlemock\cmake\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/lib/gtest/googlemock/cmake/gmock_main.pc.in">
+			<Option virtualFolder="CMake Files\lib\gtest\googlemock\cmake\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/lib/gtest/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\gtest\googletest\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/lib/gtest/googletest/cmake/Config.cmake.in">
+			<Option virtualFolder="CMake Files\lib\gtest\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/lib/gtest/googletest/cmake/gtest.pc.in">
+			<Option virtualFolder="CMake Files\lib\gtest\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/lib/gtest/googletest/cmake/gtest_main.pc.in">
+			<Option virtualFolder="CMake Files\lib\gtest\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/lib/gtest/googletest/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\lib\gtest\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/lib/restclient-cpp/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\restclient-cpp\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/../../../../usr/lib/x86_64-linux-gnu/cmake/gflags/gflags-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\gflags\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/../../../../usr/lib/x86_64-linux-gnu/cmake/gflags/gflags-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\gflags\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/../../../../usr/lib/x86_64-linux-gnu/cmake/gflags/gflags-nonamespace-targets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\gflags\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/../../../../usr/lib/x86_64-linux-gnu/cmake/gflags/gflags-nonamespace-targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\gflags\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Qml/Qt5QmlConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Qml/Qt5QmlConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Qml/Qt5QmlConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Qml/Qt5Qml_QDebugMessageServiceFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Qml/Qt5Qml_QLocalClientConnectionFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Qml/Qt5Qml_QQmlDebugServerFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Qml/Qt5Qml_QQmlDebuggerServiceFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Qml/Qt5Qml_QQmlInspectorServiceFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Qml/Qt5Qml_QQmlNativeDebugConnectorFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Qml/Qt5Qml_QQmlNativeDebugServiceFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Qml/Qt5Qml_QQmlPreviewServiceFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Qml/Qt5Qml_QQmlProfilerServiceFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Qml/Qt5Qml_QQuickProfilerAdapterFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Qml/Qt5Qml_QTcpServerConnectionFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Network/Qt5NetworkConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Network\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Network/Qt5NetworkConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Network\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Quick/Qt5QuickConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Quick\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Quick/Qt5QuickConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Quick\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/../build-sbc-platform-Desktop-Default/restclient/restclient-cppConfig.cmake.in">
+			<Option virtualFolder="CMake Files\..\build-sbc-platform-Desktop-Default\restclient\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/../build-sbc-platform-Desktop-Default/restclient/version.h.in">
+			<Option virtualFolder="CMake Files\..\build-sbc-platform-Desktop-Default\restclient\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/../build-sbc-platform-Desktop-Default/src/IC-Linux/SmartCity_IC.qrc">
+			<Option virtualFolder="CMake Files\..\build-sbc-platform-Desktop-Default\src\IC-Linux\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/src/V2X/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\V2X\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/src/EmulationServer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\EmulationServer\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/src/IC-Lib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\IC-Lib\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/src/IC-Linux/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\IC-Linux\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/src/IC-Linux/IC-Linux.compiled.ini.in">
+			<Option virtualFolder="CMake Files\src\IC-Linux\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/src/IC-Linux/qmlproject.builddir.in">
+			<Option virtualFolder="CMake Files\src\IC-Linux\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/src/IC-Linux/qmlproject.in">
+			<Option virtualFolder="CMake Files\src\IC-Linux\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/src/IC-Linux/cluster_base/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\IC-Linux\cluster_base\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/src/IC-Linux/cluster_base/cmake/Qt5Base.cmake">
+			<Option virtualFolder="CMake Files\src\IC-Linux\cluster_base\cmake\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/src/IC-Linux/cluster_base/cmake/WrapQt5.cmake">
+			<Option virtualFolder="CMake Files\src\IC-Linux\cluster_base\cmake\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/src/IC-Linux/cluster_base/src/application/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\IC-Linux\cluster_base\src\application\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/src/IC-Linux/cluster_base/src/application/resourcegen.in">
+			<Option virtualFolder="CMake Files\src\IC-Linux\cluster_base\src\application\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/src/IC-Linux/cluster_base/src/runtime/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\IC-Linux\cluster_base\src\runtime\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/src/IC-Linux/qmlplugins/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\IC-Linux\qmlplugins\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/src/SCS/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\SCS\"/>
+		</Unit>
+		<Unit filename="/home/vlad/Programming/sbc-platform/src/SCS/mapviewer/res.qrc">
+			<Option virtualFolder="CMake Files\src\SCS\mapviewer\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/vlad/Programming/sbc-platform/src/IC-Lib/libcluster/glogwrapper.h
+
+/home/vlad/Programming/sbc-platform/src/IC-Lib/libcluster/logger.c
+stdarg.h
+-
+stdio.h
+-
+stdlib.h
+-
+android/log.h
+-
+logger.h
+/home/vlad/Programming/sbc-platform/src/IC-Lib/libcluster/logger.h
+glogwrapper.h
+/home/vlad/Programming/sbc-platform/src/IC-Lib/libcluster/glogwrapper.h
+
+/home/vlad/Programming/sbc-platform/src/IC-Lib/libcluster/logger.h
+

@@ -1,0 +1,9 @@
+InfoLabel 1.0 InfoLabel.qml
+InfoLabelBackground 1.0 InfoLabelBackground.qml
+StatusLabel 1.0 StatusLabel.qml
+ClusterGaugeInterface 1.0 ClusterGaugeInterface.qml
+ClusterGauge 1.0 ClusterGauge.js
+MapStreamingContext 0.9 MapStreamingContextMock.qml
+MapStreamingContext 1.0 MapStreamingContext.qml
+PrototypeExtensions 1.0 PrototypeExtensions.js
+KeyboardHandler 1.0 KeyboardHandler.qml

@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{0C09DB73-1F73-42D6-B52B-2AF72090959F}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Lab3/Form1.Designer.cs">
+    <Files>
+      <File FileName="Lab3/Form1.Designer.cs" Line="67" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Lab3" expanded="True">
+            <Node name="Lab3" expanded="True">
+              <Node name="References" expanded="True" selected="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="Form1.cs" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Lab3 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

@@ -1,0 +1,3 @@
+module hmi.utils
+plugin QmlUtilsPlugin
+typeinfo plugins.qmltypes

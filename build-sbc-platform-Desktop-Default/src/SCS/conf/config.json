@@ -1,0 +1,5 @@
+{
+    "port": 40882,
+    "mapPath" : "/home/vlad/Programming/sbc-platform/src/SCS/map/kyivmap",
+    "mapStyle" : "/home/vlad/Programming/sbc-platform/src/SCS/map/style/standard.oss"
+}
